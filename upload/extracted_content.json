@@ -1,0 +1,1268 @@
+{
+  "Instrucoes_MARA_corrigidas.docx": {
+    "paragraphs": [
+      "INSTRUÇÕES DE USO MATRIZ DE AVALIAÇÃO DE RISCO ALGORÍTMICO (MARA)",
+      "",
+      "IU.1 Antes de começar: qual versão usar? ",
+      "A escolha entre a Versão A Qualitativa e a Versão B Quantitativa da Matriz de Avaliação de Risco Algorítmico (MARA) não é escolha entre instrumento rigoroso e instrumento simplificado. As duas versões partem da mesma base ética, percorrem os mesmos eixos de avaliação e chegam ao mesmo conjunto de exigências por nível de risco. O que as diferencia é a lógica de operação: a Versão A orienta o raciocínio por fluxograma sequencial; a Versão B orienta a rastreabilidade por pontuação ponderada. Um CEP que escolhe a Versão A não faz escolha menos rigorosa. Faz a escolha adequada ao seu momento institucional e ao perfil dos protocolos que avalia.",
+      "Três perguntas orientam essa escolha. A primeira é sobre experiência institucional: o CEP tem ciclos consolidados de avaliação de protocolos com IA, com membros familiarizados com os conceitos do Capítulo 2 e com a lógica dos cinco eixos, ou está nos primeiros ciclos de familiarização com esse tipo de protocolo? A Versão A é o ponto de entrada recomendado para comitês que estão construindo essa familiaridade. A segunda é sobre a complexidade do protocolo: o sistema de IA descrito envolve múltiplas arquiteturas, aprendizado contínuo, uso simultâneo em diferentes fases da pesquisa ou integração com outros sistemas, ou trata-se de uso mais circunscrito com sistema claramente descrito? Protocolos de alta complexidade técnica se beneficiam da granularidade da Versão B, que permite identificar onde o risco está concentrado e como as mitigações o reduziram. A terceira é sobre as necessidades institucionais de documentação: a instituição precisa comparar protocolos entre si, produzir relatórios auditáveis sobre as decisões do comitê ou demonstrar para patrocinadores e reguladores a base numérica das aprovações e recusas? A Versão B foi desenhada para esse nível de rastreabilidade.",
+      "",
+      "Quadro 1 Comparativo das Versões Quantitativa e Qualitativa da Matriz de Avaliação de Risco Algorítmico (MARA)",
+      "",
+      "As duas versões são compatíveis e podem ser usadas em combinação. Um CEP pode adotar a Versão A como triagem inicial e recorrer à Versão B para aprofundar a análise de protocolos que a Versão A classifique nos Níveis III ou IV. Pode, também, começar com a Versão A e migrar progressivamente para a Versão B à medida que os membros desenvolvem familiaridade com o instrumento. A escolha não é irreversível. O instrumento foi desenhado para acompanhar o desenvolvimento institucional do comitê, não para fixá-lo num nível de capacidade.",
+      "IU.2 Aplicando a Versão A Qualitativa: passo a passo ",
+      "O Passo 0 é a decisão que determina se a Versão A se aplica ao protocolo em avaliação. A pergunta é precisa e deve ser respondida antes de qualquer outra leitura do instrumento: o sistema de IA realiza automação de decisão, geração de conteúdo ou intervenção no protocolo ou na condução do estudo? Três tipos de uso acionam a matriz. O primeiro é a automação de decisão: qualquer sistema que produza classificações, escores, recomendações ou alertas que influenciem decisões sobre participantes ou sobre a condução do estudo. O segundo é a geração de conteúdo: sistemas que produzem texto, dados sintéticos, imagens ou qualquer outro conteúdo que integre o protocolo, o TCLE, os instrumentos de coleta ou os resultados da pesquisa. O terceiro é a intervenção: sistemas cuja saída orienta, modifica ou substitui etapas do protocolo. Uma ferramenta de organização bibliográfica não aciona a matriz. Um modelo de apoio diagnóstico aciona. Um gerador de dados sintéticos aciona. Um sistema de processamento de linguagem natural que analisa prontuários para identificar participantes elegíveis aciona. A dúvida sobre onde traçar essa linha não é sinal de fragilidade do avaliador. É sinal de que o protocolo deve ser levado ao plenário antes de qualquer decisão sobre a aplicação da matriz.",
+      "A caracterização do contexto de uso é o passo mais negligenciado e o mais consequente de toda a Versão A. Sem ela, os cinco eixos produzem leituras descontextualizadas que podem classificar sistemas distintos no mesmo nível por razões incomparáveis. Antes de percorrer qualquer eixo, o CEP precisa responder a duas perguntas sobre o sistema: qual é a pergunta que ele foi desenvolvido para responder neste protocolo, e a resposta é produzida de forma autônoma ou subsidia uma decisão tomada por um ser humano? ",
+      "A resposta a essas duas perguntas situa o sistema no seu território ético específico e orienta o percurso pelos eixos seguintes. O percurso pelos cinco eixos apresenta situações onde a resposta binária não é óbvia. Quando o pesquisador descreve o sistema como supervisionado mas não descreve o mecanismo de supervisão, a resposta correta é de risco: supervisão declarada sem mecanismo descrito é supervisão não verificável. Quando o protocolo menciona validação mas não documenta testes de desempenho por subgrupo populacional, a resposta correta é de risco: validação global sem análise estratificada não garante equidade. Quando o TCLE menciona IA mas em linguagem técnica que o participante médio não compreenderia, a resposta correta é de risco: menção sem compreensibilidade não satisfaz o requisito de consentimento informado.",
+      "O resultado da Versão A é um nível de risco determinado pela combinação das respostas nos cinco eixos, com a regra crítica aplicada: um único eixo classificado em Nível IV eleva o protocolo inteiro ao Nível IV, independentemente dos demais eixos. Cada nível determina um conjunto de requisitos mínimos cumulativos que o pesquisador deve demonstrar ter atendido antes da aprovação. No Nível I, exige-se declaração de uso de IA e menção no TCLE. No Nível II, acrescentam-se a descrição do sistema e a demonstração de conformidade com a LGPD. No Nível III, acrescentam-se documentação de validação técnica, análise de desempenho por subgrupos e comprovação de supervisão humana efetiva. No Nível IV, acrescentam-se parecer técnico externo, plano de monitoramento contínuo com critérios de interrupção e, quando aplicável, notificação à ANVISA. ",
+      "O CEP traduz esse resultado em linguagem de parecer com precisão: o protocolo foi classificado no Nível X da Matriz de Avaliação de Risco Algorítmico, Versão A, e não satisfaz os requisitos mínimos do nível nas seguintes dimensões, com indicação explícita de quais requisitos estão ausentes e qual o prazo para complementação. Quando o protocolo apresenta falha estrutural que nenhuma complementação resolve, a recusa é fundamentada no nível de risco identificado e nos princípios da Lei n.º 14.874/2024. A regra crítica não é punição. É o princípio de precaução materializado no instrumento: um sistema que falha numa dimensão estrutural não se torna ético por ter desempenho adequado nas demais.",
+      "",
+      "IU.3 Aplicando a Versão B Quantitativa: passo a passo ",
+      "A Versão B opera sobre a mesma base ética e os mesmos eixos da Versão A, mas com lógica distinta: pontuação ponderada em sete blocos, soma total que determina o nível de risco e capacidade de identificar onde o risco está concentrado. Antes de iniciar a pontuação, o Passo 0 é idêntico ao da Versão A: o sistema realiza automação de decisão, geração de conteúdo ou intervenção no protocolo? Se não, a matriz não se aplica. Se sim, o CEP prossegue para a caracterização do contexto de uso, que na Versão B é obrigatória e não pontua, mas condiciona toda a pontuação subsequente. As duas perguntas descritivas — qual é a pergunta que o sistema foi desenvolvido para responder, e a resposta é autônoma ou subsidiária — precisam estar respondidas antes do primeiro bloco.",
+      "Os sete blocos percorrem dimensões distintas com pesos distintos. O Bloco 1 avalia o projeto: transparência do protocolo, qualificação da equipe e clareza da proposta, com pontuação máxima de 22 pontos. O Bloco 2 avalia o sistema: autonomia, adaptabilidade e rastreabilidade, com pontuação máxima de 17 pontos. O Bloco 3 avalia o algoritmo: qualidade, origem e representatividade dos dados de treinamento e teste, com pontuação máxima de 14 pontos. O Bloco 4 avalia a natureza da decisão apoiada: reversibilidade, autonomia decisória e consequência clínica, com pontuação máxima de 8 pontos. O Bloco 5 avalia o impacto sobre a pessoa participante, com pontuação máxima de 52 pontos. O Bloco 6 avalia a sensibilidade e a governança dos dados, com pontuação máxima de 50 pontos. O Bloco 7 avalia as mitigações, com lógica bidirecional: perguntas de risco somam até 75 pontos e perguntas de mitigação subtraem até 65 pontos. Os Blocos 5 e 6 concentram 43% da pontuação total. Essa concentração expressa a hierarquia de prioridades do instrumento: o que mais importa em pesquisa com seres humanos é o que o sistema pode fazer à pessoa participante e como seus dados são tratados.",
+      "O Bloco 7 merece atenção específica porque opera de forma distinta dos demais. É o único bloco com lógica bidirecional. As perguntas de risco somam quando o pesquisador não adotou medidas de supervisão, explicabilidade ou monitoramento adequadas. As perguntas de mitigação subtraem quando essas medidas estão documentadas e verificáveis. A subtração não é automática: depende de que as medidas estejam descritas no protocolo com precisão suficiente para que o CEP as avalie como reais, não como declarações de intenção. Um protocolo que afirma que o sistema é supervisionado sem descrever o mecanismo de supervisão não obtém a subtração correspondente. A pontuação do Bloco 7 é a única que o pesquisador pode influenciar diretamente com as escolhas de desenho do estudo. É o bloco que recompensa protocolos bem construídos e penaliza protocolos que transferem o risco ao participante sem contramedidas documentadas.",
+      "A soma dos sete blocos produz a classificação em um dos quatro níveis. O Nível I vai de 0 a 50 pontos. O Nível II vai de 51 a 110 pontos. O Nível III vai de 111 a 180 pontos. O Nível IV vai de 181 a 238 pontos. Cada nível determina os mesmos requisitos mínimos cumulativos descritos na IU.2. A diferença em relação à Versão A é que a Versão B permite ao CEP identificar em quais blocos o risco está concentrado e comunicar essa informação ao pesquisador com precisão. Um protocolo classificado no Nível III com concentração de pontuação nos Blocos 5 e 6 recebe solicitação de complementação diferente de um protocolo classificado no mesmo nível com concentração no Bloco 2. A granularidade da pontuação torna o parecer mais fundamentado e o pesquisador mais capaz de compreender o que precisa demonstrar para obter aprovação.",
+      "A regra crítica da Versão B é idêntica em princípio à da Versão A, mas opera por pontuação: a classificação final não pode ser alterada por decisão subjetiva do avaliador. As mitigações já estão incorporadas na pontuação do Bloco 7 e constituem a única forma legítima de reduzir a pontuação final. Declarações de intenção não documentadas não substituem evidências de controle efetivo do risco. Exceção — Cláusula de Prevalência Ética: a marcação afirmativa nas perguntas P4.1 ou P4.2 (decisão sem revisão humana ou dano irreversível ao participante) aciona o princípio da precaução, facultando ao CEP a elevação imediata do protocolo ao Nível IV, independentemente da pontuação total. O resultado final após subtração das mitigações do Bloco 7 não pode ser inferior a zero pontos. O CEP que aplica a Versão B e obtém classificação no Nível IV não pode aprovar o protocolo com base em argumentos que a pontuação não reflete. Pode solicitar complementação que permita ao pesquisador reduzir a pontuação por meio de mitigações reais. Pode recusar com fundamentação baseada na pontuação e nos requisitos do nível. Não pode ignorar o resultado do instrumento que escolheu aplicar.",
+      "",
+      "IU.4 Documentando a decisão ",
+      "Aplicar a MARA sem registrar o resultado no processo de avaliação é aplicar o instrumento pela metade. O registro transforma a deliberação do CEP em jurisprudência institucional: o protocolo avaliado hoje forma o repertório que orienta a avaliação do protocolo semelhante que chegará no próximo semestre. Um comitê que não documenta suas decisões sobre protocolos com IA recomeça do zero a cada avaliação.",
+      "O registro mínimo obrigatório em qualquer parecer que utilizou a MARA inclui quatro elementos. O primeiro é a identificação da versão utilizada: Versão A Qualitativa ou Versão B Quantitativa, com indicação de eventual uso combinado. O segundo é o resultado da aplicação: o nível de risco obtido em cada eixo, na Versão A, ou a pontuação por bloco e a pontuação total, na Versão B. O terceiro é a justificativa para decisões não óbvias: quando uma resposta de risco foi atribuída a uma dimensão onde o protocolo apresentava informação ambígua, o parecer deve registrar o raciocínio que fundamentou essa atribuição. O quarto é a tradução do nível em requisitos: quais requisitos mínimos do nível obtido o protocolo satisfez e quais estão ausentes, com indicação precisa do que o pesquisador deve complementar e em qual prazo.",
+      "Duas situações específicas exigem documentação adicional. A primeira é quando o CEP decide aprovar um protocolo com ressalvas num nível que normalmente exigiria recusa ou complementação substancial. Essa decisão precisa de fundamentação explícita que demonstre por que as circunstâncias específicas do protocolo justificam a exceção e quais salvaguardas adicionais foram exigidas como condição da aprovação. A segunda é quando membros do comitê divergiram na aplicação da matriz sobre o mesmo protocolo. A divergência deve ser registrada com as posições e os argumentos de cada lado, mesmo que a decisão final seja unânime. Divergências documentadas são o material mais rico para o desenvolvimento da competência institucional do CEP: revelam onde o instrumento precisa de orientação adicional e onde o comitê precisa de deliberação mais aprofundada.",
+      "Quando o resultado da matriz fundamenta uma recusa, o parecer deve citar explicitamente o nível obtido, os requisitos não atendidos e os artigos da Lei n.º 14.874/2024 e do Decreto n.º 12.651/2025 que sustentam a exigência não satisfeita. A recusa fundamentada na matriz não é decisão técnica do instrumento. É decisão ética do comitê, apoiada no instrumento. Essa distinção importa para o pesquisador que eventualmente recorra da decisão e para a instância que apreciar o recurso. O CEP não recusa porque a pontuação foi alta. Recusa porque o protocolo não demonstrou as garantias que a proteção dos participantes exige naquele nível de risco, conforme os princípios que a legislação brasileira estabelece e que a matriz operacionaliza.",
+      "A Instrução de Uso da MARA fecha com uma nota sobre o que o instrumento não faz. Ela não aprova nem reprova protocolos. Não substitui o julgamento do CEP. Não dispensa a deliberação colegiada. Não resolve os casos limítrofes. O que faz é tornar a avaliação mais sistemática, mais documentada e mais justificável. Torna visível o que o entusiasmo científico tende a obscurecer e o que a assimetria de conhecimento técnico tende a suprimir. O comitê que a utiliza com rigor não delega sua responsabilidade ao instrumento. Exerce essa responsabilidade com mais precisão.",
+      "",
+      ""
+    ],
+    "tables": [
+      [
+        [
+          "",
+          "Versão A  Qualitativa",
+          "Versão B  Quantitativa"
+        ],
+        [
+          "Perfil do CEP",
+          "Primeiros ciclos com IA ou protocolos de menor complexidade",
+          "Experiência consolidada ou protocolos de alta complexidade"
+        ],
+        [
+          "Lógica de operação",
+          "Fluxograma sequencial, resposta binária por eixo",
+          "Pontuação ponderada em sete blocos"
+        ],
+        [
+          "Resultado",
+          "Nível de risco por combinação de respostas",
+          "Nível de risco por soma total com rastreabilidade numérica"
+        ],
+        [
+          "Uso prioritário",
+          "Deliberação colegiada orientada ao raciocínio",
+          "Documentação auditável e comparação entre protocolos"
+        ]
+      ]
+    ]
+  },
+  "MatrizQuanti_corrigida.docx": {
+    "paragraphs": [
+      "AVISO LEGAL: DOCUMENTO SIGILOSO. USO EXCLUSIVO GABINETE DA DIRETORA DO DECIT/SCTIE/MS",
+      "",
+      "MATRIZ ORIENTATIVA DE AVALIAÇÃO DE RISCO ALGORÍTMICO: VERSÃO B (QUANTITATIVA)",
+      "Sistema de pontuação: cada pergunta respondida como risco soma pontos ao total. O nível é determinado pela soma final. Perguntas de mitigação, quando respondidas positivamente, subtraem pontos.",
+      "Faixas de nível:",
+      "PASSO 0: FILTRO DE ENTRADA",
+      "Antes de iniciar a pontuação, o CEP verifica:",
+      "O sistema de IA realiza automação de decisão, geração de conteúdo ou intervenção no protocolo ou na condução do estudo?",
+      "Não → uso rotineiro. A matriz não se aplica.",
+      "Sim → prosseguir para a caracterização do contexto de uso.",
+      "CARACTERIZAÇÃO DO CONTEXTO DE USO",
+      "(Respostas descritivas, não pontuam. Obrigatórias antes da pontuação.)",
+      "Qual é a pergunta que o sistema de IA foi desenvolvido para responder neste protocolo?",
+      "O sistema responde a essa pergunta de forma autônoma ou subsidia uma decisão tomada por um ser humano?",
+      "BLOCO 1: PROJETO",
+      "Pontuação máxima: 22 pts | Valor por pergunta: 3 pts",
+      "Avalia a adequação do protocolo para o uso de IA: transparência, qualificação da equipe e clareza da proposta.",
+      "Subtotal Bloco 1: _____ / 22 pts",
+      "BLOCO 2 — SISTEMA",
+      "Pontuação máxima: 17 pts | Valor por pergunta: 2 a 3 pts",
+      "Avalia a natureza técnica do sistema: autonomia, adaptabilidade e rastreabilidade.",
+      "Subtotal Bloco 2: _____ / 17 pts",
+      "",
+      "BLOCO 3: ALGORITMO",
+      "Pontuação máxima: 14 pts | Valor por pergunta: 2 pts",
+      "Avalia a qualidade, origem e representatividade dos dados de treinamento e teste.",
+      "Subtotal Bloco 3: _____ / 14 pts",
+      "BLOCO 4: DECISÃO",
+      "Pontuação máxima: 8 pts | Valor por pergunta: 2 a 3 pts",
+      "Avalia o grau de autonomia decisória do sistema e a consequência de um erro: as perguntas mais críticas da matriz.",
+      "Subtotal Bloco 4: _____ / 8 pts",
+      "BLOCO 5 : IMPACTO",
+      "Pontuação máxima: 52 pts | Valor por pergunta: 5 a 6 pts",
+      "Avalia o impacto direto sobre a pessoa participante. Bloco de maior peso ético da matriz.",
+      "Subtotal Bloco 5: _____ / 52 pts",
+      "BLOCO 6: DADOS",
+      "Pontuação máxima: 50 pts | Valor por pergunta: 5 a 7 pts",
+      "Avalia a sensibilidade, a governança e a conformidade jurídica do tratamento de dados. Bloco de maior peso regulatório da matriz, ancorado na LGPD.",
+      "Subtotal Bloco 6: _____ / 50 pts ",
+      "BLOCO 7: MITIGAÇÃO",
+      "Pontuação máxima de risco: 75 pts | Perguntas de risco somam | Perguntas de mitigação subtraem",
+      "Avalia a qualidade dos mecanismos de supervisão humana, explicabilidade e controle do ciclo de vida. Único bloco com lógica bidirecional.",
+      "Subbloco 7A: Consultas (até +10 pts de risco)",
+      "Subbloco 7B: Medidas de de-risco (até +65 pts de risco / até −65 pts por mitigações)",
+      "Subtotal Bloco 7: _____ pts (positivo se faltas de mitigação superam as medidas adotadas).",
+      "CONSOLIDAÇÃO FINAL",
+      "Nível de risco:",
+      "",
+      "Regra crítica: o nível determinado pela pontuação não muda por decisão do avaliador. As mitigações já estão incorporadas na pontuação do Bloco 7 e constituem a única forma legítima de reduzir a pontuação final. Exceção — Cláusula de Prevalência Ética: a marcação afirmativa nas perguntas P4.1 ou P4.2 (decisão sem revisão humana ou dano irreversível ao participante) aciona o princípio da precaução, facultando ao CEP a elevação imediata do protocolo ao Nível IV, independentemente da pontuação total. O resultado final após subtração das mitigações do Bloco 7 não pode ser inferior a zero pontos.",
+      ""
+    ],
+    "tables": [
+      [
+        [
+          "Pontuação total",
+          "Nível"
+        ],
+        [
+          "0 a 50 pts",
+          "I — Baixo"
+        ],
+        [
+          "51 a 110 pts",
+          "II — Moderado"
+        ],
+        [
+          "111 a 180 pts",
+          "III — Alto"
+        ],
+        [
+          "181 a 238 pts",
+          "IV — Crítico"
+        ]
+      ],
+      [
+        [
+          "",
+          "Pergunta",
+          "Risco",
+          "Pts"
+        ],
+        [
+          "P1.1",
+          "O protocolo descreve com precisão o sistema de IA utilizado — nome, versão, fabricante ou desenvolvedor, e finalidade?",
+          "Não",
+          "3"
+        ],
+        [
+          "P1.2",
+          "O protocolo justifica a escolha do sistema de IA em relação a alternativas metodológicas disponíveis?",
+          "Não",
+          "3"
+        ],
+        [
+          "P1.3",
+          "A equipe responsável inclui ao menos um membro com competência técnica para interpretar os resultados do sistema e identificar falhas?",
+          "Não",
+          "3"
+        ],
+        [
+          "P1.4",
+          "O protocolo descreve o estágio de desenvolvimento do sistema — Discovery, Translation ou Deployment?",
+          "Não",
+          "3"
+        ],
+        [
+          "P1.5",
+          "O protocolo apresenta o contexto de uso definido — papel do sistema, escopo da decisão e fontes de evidência complementares?",
+          "Não",
+          "3"
+        ],
+        [
+          "P1.6",
+          "O TCLE menciona de forma compreensível que um sistema de IA será utilizado e qual é o seu papel no estudo?",
+          "Não",
+          "3"
+        ],
+        [
+          "P1.7",
+          "O protocolo foi submetido a consulta ou parecer técnico externo sobre o uso do sistema de IA?",
+          "Não",
+          "4"
+        ]
+      ],
+      [
+        [
+          "",
+          "Pergunta",
+          "Risco",
+          "Pts"
+        ],
+        [
+          "P2.1",
+          "O sistema toma decisões ou emite recomendações sem intervenção humana obrigatória antes da execução?",
+          "Sim",
+          "3"
+        ],
+        [
+          "P2.2",
+          "O sistema é adaptativo: aprende ou se atualiza com novos dados após o início do estudo?",
+          "Sim",
+          "3"
+        ],
+        [
+          "P2.3",
+          "O sistema opera como caixa-preta: sem possibilidade de explicar os fatores que determinaram cada resultado?",
+          "Sim",
+          "3"
+        ],
+        [
+          "P2.4",
+          "O sistema foi submetido a testes de desempenho documentados antes do uso no protocolo?",
+          "Não",
+          "2"
+        ],
+        [
+          "P2.5",
+          "O sistema é explicável: fornece, junto a cada resultado, uma explicação compreensível sobre os fatores que o influenciaram?",
+          "Não",
+          "2"
+        ],
+        [
+          "P2.6",
+          "O protocolo define claramente o que acontece quando a decisão do sistema diverge do julgamento humano?",
+          "Não",
+          "2"
+        ],
+        [
+          "P2.7",
+          "O protocolo descreve a arquitetura do sistema — tipo de modelo, dados de entrada e saída, método de treinamento?",
+          "Não",
+          "2"
+        ]
+      ],
+      [
+        [
+          "",
+          "Pergunta",
+          "Risco",
+          "Pts"
+        ],
+        [
+          "P3.1",
+          "O modelo foi desenvolvido fora do Brasil para uso em população brasileira sem validação local documentada?",
+          "Sim",
+          "2"
+        ],
+        [
+          "P3.2",
+          "Os dados de treinamento do modelo foram coletados predominantemente em populações de alta renda ou do hemisfério norte?",
+          "Sim",
+          "2"
+        ],
+        [
+          "P3.3",
+          "Os dados de treinamento incluem representação adequada da diversidade da população-alvo deste protocolo: raça/cor, etnia, orientação sexual, gênero, faixa etária, região geográfica?",
+          "Não",
+          "2"
+        ],
+        [
+          "P3.4",
+          "Os dados de teste do modelo são independentes dos dados de treinamento?",
+          "Não",
+          "2"
+        ],
+        [
+          "P3.5",
+          "O protocolo descreve os dados usados no treinamento: origem, período de coleta, critérios de inclusão e exclusão?",
+          "Não",
+          "2"
+        ],
+        [
+          "P3.6",
+          "O protocolo apresenta avaliação de desempenho do modelo por subgrupos populacionais relevantes?",
+          "Não",
+          "2"
+        ],
+        [
+          "P3.7",
+          "O desempenho do modelo foi validado em contexto assistencial comparável ao SUS ou ao sistema de saúde em que será utilizado?",
+          "Não",
+          "2"
+        ]
+      ],
+      [
+        [
+          "",
+          "Pergunta",
+          "Risco",
+          "Pts"
+        ],
+        [
+          "P4.1",
+          "O sistema é o único determinante de uma decisão que afeta diretamente o participante — sem revisão humana obrigatória?",
+          "Sim",
+          "3"
+        ],
+        [
+          "P4.2",
+          "Em caso de erro do sistema, o dano ao participante seria irreversível ou de difícil reparação?",
+          "Sim",
+          "3"
+        ],
+        [
+          "P4.3",
+          "O profissional responsável tem acesso às informações necessárias para contestar a recomendação do sistema antes de sua execução?",
+          "Não",
+          "2"
+        ]
+      ],
+      [
+        [
+          "",
+          "Pergunta",
+          "Risco",
+          "Pts"
+        ],
+        [
+          "P5.1",
+          "O sistema influencia diretamente decisões clínicas ou terapêuticas sobre o participante?",
+          "Sim",
+          "6"
+        ],
+        [
+          "P5.2",
+          "O sistema pode causar dano físico ao participante em caso de erro?",
+          "Sim",
+          "6"
+        ],
+        [
+          "P5.3",
+          "O sistema pode causar dano psíquico, social ou econômico ao participante em caso de erro?",
+          "Sim",
+          "6"
+        ],
+        [
+          "P5.4",
+          "O protocolo envolve populações vulneráveis — crianças, gestantes, idosos, povos indígenas ou pessoas em situação de vulnerabilidade socioeconômica?",
+          "Sim",
+          "6"
+        ],
+        [
+          "P5.5",
+          "O sistema infere características sensíveis do participante — raça, etnia, condição de saúde, orientação sexual — que não foram explicitamente coletadas?",
+          "Sim",
+          "6"
+        ],
+        [
+          "P5.6",
+          "Os efeitos de um erro do sistema sobre o participante são reversíveis?",
+          "Não",
+          "5"
+        ],
+        [
+          "P5.7",
+          "O protocolo descreve como os resultados gerados pela IA serão comunicados ao participante, quando aplicável?",
+          "Não",
+          "5"
+        ],
+        [
+          "P5.8",
+          "O protocolo prevê mecanismo para que o participante solicite a exclusão de seus dados do processo de treinamento ou retreinamento do modelo?",
+          "Não",
+          "6"
+        ],
+        [
+          "P5.9",
+          "O protocolo define responsabilidade humana clara em caso de erro ou dano decorrente do uso do sistema?",
+          "Não",
+          "6"
+        ]
+      ],
+      [
+        [
+          "",
+          "Pergunta",
+          "Risco",
+          "Pts"
+        ],
+        [
+          "P6.1",
+          "O sistema processa dados pessoais sensíveis: saúde, genética, biometria, raça, etnia, religião, vida sexual?",
+          "Sim",
+          "7"
+        ],
+        [
+          "P6.2",
+          "Os dados são transferidos ou processados em servidores fora do Brasil?",
+          "Sim",
+          "7"
+        ],
+        [
+          "P6.3",
+          "Existe risco real de reidentificação dos participantes a partir dos dados utilizados ou gerados pelo sistema?",
+          "Sim",
+          "7"
+        ],
+        [
+          "P6.4",
+          "O consentimento obtido cobre explicitamente o uso dos dados para treinamento ou retreinamento de modelos de IA?",
+          "Não",
+          "6"
+        ],
+        [
+          "P6.5",
+          "O protocolo demonstra conformidade com a LGPD — base legal identificada, finalidade declarada, Encarregado de Dados (DPO) indicado?",
+          "Não",
+          "7"
+        ],
+        [
+          "P6.6",
+          "O protocolo prevê plano de resposta a incidentes de segurança envolvendo os dados processados pela IA?",
+          "Não",
+          "5"
+        ],
+        [
+          "P6.7",
+          "Os dados de treinamento do modelo foram coletados com consentimento compatível com o uso previsto neste protocolo?",
+          "Não",
+          "6"
+        ],
+        [
+          "P6.8",
+          "O protocolo descreve como os dados serão armazenados, por quanto tempo e como serão descartados ao final do estudo?",
+          "Não",
+          "5"
+        ]
+      ],
+      [
+        [
+          "",
+          "Pergunta",
+          "Risco",
+          "Pts"
+        ],
+        [
+          "P7.1",
+          "O protocolo foi submetido a consulta prévia com a ANVISA sobre o enquadramento do sistema como SaMD?",
+          "Não",
+          "5"
+        ],
+        [
+          "P7.2",
+          "O protocolo prevê engajamento com o fabricante ou desenvolvedor do sistema para esclarecimento de dúvidas técnicas durante o estudo?",
+          "Não",
+          "5"
+        ]
+      ],
+      [
+        [
+          "",
+          "Pergunta",
+          "Efeito",
+          "Pts"
+        ],
+        [
+          "P7.3",
+          "O protocolo garante que um profissional habilitado revisa toda decisão gerada pelo sistema antes de sua execução?",
+          "Mitigação",
+          "−10"
+        ],
+        [
+          "P7.4",
+          "O sistema fornece, junto a cada resultado, uma explicação compreensível sobre os fatores que influenciaram aquele resultado?",
+          "Mitigação",
+          "−8"
+        ],
+        [
+          "P7.5",
+          "O protocolo prevê monitoramento contínuo do desempenho do sistema após o início do uso, com critérios definidos para interrupção?",
+          "Mitigação",
+          "−10"
+        ],
+        [
+          "P7.6",
+          "Existe procedimento documentado para falha, indisponibilidade ou resultado inconsistente do sistema durante o estudo?",
+          "Mitigação",
+          "−8"
+        ],
+        [
+          "P7.7",
+          "O protocolo prevê como e quando o modelo será retreinado, e quem autoriza essa atualização?",
+          "Mitigação",
+          "−8"
+        ],
+        [
+          "P7.8",
+          "A equipe responsável tem competência técnica suficiente para interpretar os resultados do sistema e identificar falhas?",
+          "Mitigação",
+          "−7"
+        ],
+        [
+          "P7.9",
+          "O protocolo prevê monitoramento de deriva de dados (data drift) degradação do desempenho ao longo do tempo?",
+          "Mitigação",
+          "−7"
+        ],
+        [
+          "P7.10",
+          "O protocolo descreve responsabilidade humana clara e identificada em caso de erro ou dano decorrente do sistema?",
+          "Mitigação",
+          "−7"
+        ]
+      ],
+      [
+        [
+          "Bloco",
+          "Pts máx.",
+          "Pontuação obtida"
+        ],
+        [
+          "1 — Projeto",
+          "22",
+          "_____"
+        ],
+        [
+          "2 — Sistema",
+          "17",
+          "_____"
+        ],
+        [
+          "3 — Algoritmo",
+          "14",
+          "_____"
+        ],
+        [
+          "4 — Decisão",
+          "8",
+          "_____"
+        ],
+        [
+          "5 — Impacto",
+          "52",
+          "_____"
+        ],
+        [
+          "6 — Dados",
+          "50",
+          "_____"
+        ],
+        [
+          "7 — Mitigação",
+          "75",
+          "_____"
+        ],
+        [
+          "TOTAL",
+          "238",
+          "_____"
+        ]
+      ],
+      [
+        [
+          "Pontuação total",
+          "Nível",
+          "Classificação"
+        ],
+        [
+          "0 a 50 pts",
+          "I",
+          "Baixo"
+        ],
+        [
+          "51 a 110 pts",
+          "II",
+          "Moderado"
+        ],
+        [
+          "111 a 180 pts",
+          "III",
+          "Alto"
+        ],
+        [
+          "181 a 238 pts",
+          "IV",
+          "Crítico"
+        ]
+      ]
+    ]
+  },
+  "Matrizquali.docx": {
+    "paragraphs": [
+      "AVISO LEGAL: DOCUMENTO SIGILOSO. USO EXCLUSIVO GABINETE DA DIRETORA DO DECIT/SCTIE/MS",
+      "EIXO 1: NATUREZA E AUTONOMIA DO SISTEMA",
+      "O eixo articula o conceito de influência do modelo (FDA, 2025) com os conceitos de potencial de falha e oportunidade de contestação desenvolvidos pelo Ministério da Segurança Alimentar e de Medicamentos da Coreia do Sul (MFDS, 2023).",
+      "",
+      "Resultado do Eixo 1:",
+      "0 respostas de risco → Nível I",
+      "1 a 2 respostas de risco → Nível II",
+      "3 a 4 respostas de risco → Nível III",
+      "5 ou mais respostas de risco → Nível IV",
+      "",
+      "EIXO 2: IMPACTO SOBRE A PESSOA PARTICIPANTE",
+      "O eixo tem fundamento na legislação brasileira de pesquisa com seres humanos (BRASIL, 2024; 2025) e incorpora o direito do participante de solicitar a exclusão de seus dados do treinamento do modelo, instituído pelo Indian Council of Medical Research (ICMR, 2023).",
+      "",
+      "Resultado do Eixo 2:",
+      "0 respostas de risco → Nível I",
+      "1 a 2 respostas de risco → Nível II",
+      "3 a 4 respostas de risco → Nível III",
+      "5 ou mais respostas de risco → Nível IV",
+      "",
+      "EIXO 3: SENSIBILIDADE E GOVERNANÇA DOS DADOS",
+      "O eixo está ancorado na Lei Geral de Proteção de Dados Pessoais (LGPD) e nas diretrizes do Indian Council of Medical Research (ICMR, 2023) sobre governança de dados em pesquisa com inteligência artificial.",
+      "",
+      "Resultado do Eixo 3:",
+      "0 respostas de risco → Nível I",
+      "1 a 2 respostas de risco → Nível II",
+      "3 a 4 respostas de risco → Nível III",
+      "5 ou mais respostas de risco → Nível IV",
+      "",
+      "EIXO 4: REPRESENTATIVIDADE E TRANSFERIBILIDADE",
+      "O eixo tem fundamento no guia australiano (NHMRC, 2023), nas diretrizes do MFDS coreano (MFDS, 2023) e no referencial do MRCT Center e WCG (2025) sobre representatividade de modelos em contextos populacionais diversos.",
+      "Resultado do Eixo 4:",
+      "0 respostas de risco → Nível I",
+      "1 a 2 respostas de risco → Nível II",
+      "3 a 4 respostas de risco → Nível III",
+      "5 ou mais respostas de risco → Nível IV",
+      "",
+      "EIXO 5: SUPERVISÃO HUMANA E EXPLICABILIDADE",
+      "O eixo tem fundamento no princípio da autonomia médica irrevogável enunciado pelo Indian Council of Medical Research (ICMR, 2023), no conceito de manutenção do ciclo de vida desenvolvido pela FDA (2025) e no modelo australiano de supervisão humana continuada (NHMRC, 2023).",
+      "",
+      "Resultado do Eixo 5:",
+      "0 respostas de risco → Nível I",
+      "1 a 2 respostas de risco → Nível II",
+      "3 a 4 respostas de risco → Nível III",
+      "5 ou mais respostas de risco → Nível IV",
+      "",
+      "REGRA DE CONSOLIDAÇÃO — FLUXOGRAMA SEQUENCIAL",
+      "O CEP percorre os cinco eixos em ordem. O nível final é o mais alto identificado em qualquer eixo. Um único eixo em Nível IV eleva o protocolo inteiro ao Nível IV.",
+      "",
+      "",
+      ""
+    ],
+    "tables": [
+      [
+        [
+          "",
+          "Pergunta",
+          "Sim",
+          "Não"
+        ],
+        [
+          "1.1",
+          "O sistema toma decisões ou emite recomendações sem intervenção humana obrigatória antes da execução?",
+          "⬆ eleva",
+          ""
+        ],
+        [
+          "1.2",
+          "O sistema é adaptativo — aprende ou se atualiza com novos dados após o início do estudo?",
+          "⬆ eleva",
+          ""
+        ],
+        [
+          "1.3",
+          "Em caso de falha ou erro do sistema, o dano ao participante seria de difícil reversão?",
+          "⬆ eleva",
+          ""
+        ],
+        [
+          "1.4",
+          "O sistema foi desenvolvido e validado fora do contexto em que será utilizado neste protocolo?",
+          "⬆ eleva",
+          ""
+        ],
+        [
+          "1.5",
+          "O profissional responsável tem acesso às informações necessárias para contestar a recomendação do sistema?",
+          "",
+          "⬆ eleva"
+        ],
+        [
+          "1.6",
+          "O protocolo define claramente o que acontece quando a decisão do sistema diverge do julgamento humano?",
+          "",
+          "⬆ eleva"
+        ],
+        [
+          "1.7",
+          "O sistema é explicável — é possível compreender por que chegou a determinado resultado?",
+          "",
+          "⬆ eleva"
+        ],
+        [
+          "1.8",
+          "O sistema foi submetido a testes de desempenho documentados antes do uso no protocolo?",
+          "",
+          "⬆ eleva"
+        ]
+      ],
+      [
+        [
+          "",
+          "Pergunta",
+          "Sim",
+          "Não"
+        ],
+        [
+          "2.1",
+          "O sistema influencia diretamente decisões clínicas ou terapêuticas sobre o participante?",
+          "⬆ eleva",
+          ""
+        ],
+        [
+          "2.2",
+          "O sistema pode causar dano físico ao participante em caso de erro?",
+          "⬆ eleva",
+          ""
+        ],
+        [
+          "2.3",
+          "O sistema pode causar dano psíquico, social ou econômico ao participante em caso de erro?",
+          "⬆ eleva",
+          ""
+        ],
+        [
+          "2.4",
+          "O protocolo envolve populações vulneráveis: crianças, gestantes, idosos, pessoas com deficiência, povos indígenas ou comunidades em situação de vulnerabilidade socioeconômica?",
+          "⬆ eleva",
+          ""
+        ],
+        [
+          "2.5",
+          "O sistema infere características sensíveis do participante: raça/cor, etnia, condição de saúde, orientação sexual, que não foram explicitamente coletadas?",
+          "⬆ eleva",
+          ""
+        ],
+        [
+          "2.6",
+          "Os efeitos de um erro do sistema sobre o participante são reversíveis?",
+          "",
+          "⬆ eleva"
+        ],
+        [
+          "2.7",
+          "O TCLE informa ao participante, de forma compreensível, que um sistema de IA será utilizado no protocolo e qual é o seu papel?",
+          "",
+          "⬆ eleva"
+        ],
+        [
+          "2.8",
+          "O protocolo prevê mecanismo para que o participante solicite a exclusão de seus dados do processo de treinamento ou retreinamento do modelo?",
+          "",
+          "⬆ eleva"
+        ],
+        [
+          "2.9",
+          "O protocolo descreve como os resultados gerados pela IA serão comunicados ao participante, quando aplicável?",
+          "",
+          "⬆ eleva"
+        ]
+      ],
+      [
+        [
+          "",
+          "Pergunta",
+          "Sim",
+          "Não"
+        ],
+        [
+          "3.1",
+          "O sistema processa dados pessoais sensíveis: saúde, genética, biometria, raça, etnia, religião, vida sexual?",
+          "⬆ eleva",
+          ""
+        ],
+        [
+          "3.2",
+          "Os dados são transferidos ou processados em servidores fora do Brasil?",
+          "⬆ eleva",
+          ""
+        ],
+        [
+          "3.3",
+          "O consentimento obtido cobre explicitamente o uso dos dados para treinamento ou retreinamento de modelos de IA?",
+          "",
+          "⬆ eleva"
+        ],
+        [
+          "3.4",
+          "O protocolo demonstra conformidade com a LGPD: base legal identificada, finalidade declarada, Encarregado de Dados (DPO) indicado?",
+          "",
+          "⬆ eleva"
+        ],
+        [
+          "3.5",
+          "Existe risco real de reidentificação dos participantes a partir dos dados utilizados ou gerados pelo sistema?",
+          "⬆ eleva",
+          ""
+        ],
+        [
+          "3.6",
+          "O protocolo prevê plano de resposta a incidentes de segurança envolvendo os dados processados pela IA?",
+          "",
+          "⬆ eleva"
+        ],
+        [
+          "3.7",
+          "Os dados de treinamento do modelo foram coletados com consentimento compatível com o uso previsto neste protocolo?",
+          "",
+          "⬆ eleva"
+        ],
+        [
+          "3.8",
+          "O protocolo descreve como os dados serão armazenados, por quanto tempo e como serão descartados ao final do estudo?",
+          "",
+          "⬆ eleva"
+        ]
+      ],
+      [
+        [
+          "",
+          "Pergunta",
+          "Sim",
+          "Não"
+        ],
+        [
+          "4.1",
+          "Os dados de treinamento do modelo incluem representação adequada da diversidade da população-alvo deste protocolo — raça, etnia, gênero, faixa etária, região geográfica?",
+          "",
+          "⬆ eleva"
+        ],
+        [
+          "4.2",
+          "O modelo foi desenvolvido fora do Brasil para uso em população brasileira sem validação local documentada?",
+          "⬆ eleva",
+          ""
+        ],
+        [
+          "4.3",
+          "O protocolo apresenta avaliação de desempenho do modelo por subgrupos populacionais relevantes?",
+          "",
+          "⬆ eleva"
+        ],
+        [
+          "4.4",
+          "O modelo foi treinado predominantemente em dados de populações de alta renda ou de países do hemisfério norte?",
+          "⬆ eleva",
+          ""
+        ],
+        [
+          "4.5",
+          "O protocolo descreve os dados usados no treinamento do modelo: origem, período de coleta, critérios de inclusão e exclusão?",
+          "",
+          "⬆ eleva"
+        ],
+        [
+          "4.6",
+          "Os dados de teste do modelo são independentes dos dados de treinamento?",
+          "",
+          "⬆ eleva"
+        ],
+        [
+          "4.7",
+          "O protocolo prevê monitoramento de degradação de desempenho do modelo ao longo do tempo (deriva de dados-data drift) caso seja utilizado em contexto de aplicação continuada?",
+          "",
+          "⬆ eleva"
+        ],
+        [
+          "4.8",
+          "O desempenho do modelo foi validado em contexto assistencial comparável ao SUS ou ao sistema de saúde em que será utilizado?",
+          "",
+          "⬆ eleva"
+        ]
+      ],
+      [
+        [
+          "",
+          "Pergunta",
+          "Sim",
+          "Não"
+        ],
+        [
+          "5.1",
+          "O protocolo garante que um profissional habilitado revisa e pode contestar toda decisão gerada pelo sistema antes de sua execução?",
+          "",
+          "⬆ eleva"
+        ],
+        [
+          "5.2",
+          "O sistema opera como único determinante de uma decisão — sem revisão humana obrigatória?",
+          "⬆ eleva",
+          ""
+        ],
+        [
+          "5.3",
+          "O protocolo define responsabilidade humana clara em caso de erro ou dano decorrente do uso do sistema?",
+          "",
+          "⬆ eleva"
+        ],
+        [
+          "5.4",
+          "A equipe responsável pelo estudo tem competência técnica suficiente para interpretar os resultados do sistema e identificar falhas?",
+          "",
+          "⬆ eleva"
+        ],
+        [
+          "5.5",
+          "O sistema fornece, junto a cada resultado, uma explicação compreensível sobre os fatores que influenciaram aquele resultado?",
+          "",
+          "⬆ eleva"
+        ],
+        [
+          "5.6",
+          "O protocolo prevê monitoramento contínuo do desempenho do sistema após o início do uso, com critérios definidos para interrupção?",
+          "",
+          "⬆ eleva"
+        ],
+        [
+          "5.7",
+          "Existe procedimento documentado para o caso de falha, indisponibilidade ou resultado inconsistente do sistema durante o estudo?",
+          "",
+          "⬆ eleva"
+        ],
+        [
+          "5.8",
+          "O protocolo prevê como e quando o modelo será retreinado, e quem autoriza essa atualização?",
+          "",
+          "⬆ eleva"
+        ]
+      ],
+      [
+        [
+          "Nível consolidado",
+          "Critério"
+        ],
+        [
+          "I  Baixo",
+          "Todos os eixos em Nível I"
+        ],
+        [
+          "II Moderado",
+          "Pelo menos um eixo em Nível II; nenhum acima"
+        ],
+        [
+          "III Alto",
+          "Pelo menos um eixo em Nível III; nenhum em IV"
+        ],
+        [
+          "IV Crítico",
+          "Pelo menos um eixo em Nível IV"
+        ]
+      ]
+    ]
+  },
+  "CAPI_TULO_7_corrigido.docx": {
+    "paragraphs": [
+      "CAPÍTULO 7  MARA: MATRIZ DE AVALIAÇÃO DE RISCO ALGORÍTMICO (",
+      "7.1 O percurso de construção e as trilhas abertas aos Comitês de Ética em Pesquisa",
+      "A construção de um instrumento de avaliação ética para protocolos de pesquisa que utilizam inteligência artificial exige, antes de qualquer decisão metodológica, uma escolha de postura: o instrumento existe para apoiar o julgamento do CEP ou para substituí-lo?",
+      "Este guia responde a essa pergunta sem ambiguidade. As matrizes apresentadas nos Apêndices A e B são ferramentas de apoio à deliberação. Elas não são novas normas, não criam obrigações além das já estabelecidas no âmbito da INAEP, e não têm caráter vinculante. Sua adoção é uma escolha institucional de cada Comitê de Ética em Pesquisa. O que elas oferecem é precisão: um percurso que torna a avaliação mais sistemática, mais documentada e mais justificável perante os participantes da pesquisa e a sociedade.",
+      "Esse posicionamento não é uma concessão, mas uma consequência direta do que a experiência internacional demonstrou. Nenhum dos oito modelos regulatórios avaliados conseguiu criar um instrumento universal eficaz para todos os contextos institucionais previstos. O modelo canadense de Avaliação de Impacto Algorítmico é robusto, mas foi desenhado para serviços públicos governamentais, não para pesquisa com seres humanos (CANADA, 2025). As diretrizes australianas do NHMRC são precisas no tratamento do ciclo de vida, mas não contemplam as especificidades jurídicas da proteção de dados em países de renda média (AUSTRALIA, 2023). As diretrizes do ICMR indiano são as únicas criadas para orientar CEPs na avaliação de protocolos com IA, mas foram desenvolvidas para um contexto diferente do brasileiro (ICMR, 2023). Cada modelo ofereceu contribuições reais e apresentou lacunas reais. A MARA é a síntese dessas contribuições, ancorada no direito brasileiro e orientada pelo contexto do SUS.",
+      "O percurso que levou à construção das duas versões que serão apresentadas nas próximas seções foi deliberadamente longo. A análise considerou cinco eixos de avaliação consagrados internacionalmente e, durante a pesquisa, incluiu contribuições como o conceito de Oportunidade de Contestar (Opportunity to Override) a condição real de o profissional contestar o resultado do sistema) da experiência coreana (MFDS, 2023). O direito do participante solicitar a exclusão de seus dados do treinamento do modelo provém do modelo indiano (ICMR, 2023). O Protocolo de Mudança de Algoritmos (Algorithm Change Protocol), que trata-se  da responsabilidade do pesquisador de prever como o modelo será retreinado,  decorre da experiência regulatória indiana e japonesa (CDSCO, 2025; PMDA, [s.d.]). O conceito de contexto de uso como etapa prévia obrigatória à classificação de risco da diretriz da agência estadunidense Food and Drug Administration (FDA; 2025). Cada um desses elementos ampliou e qualificou o instrumento final.",
+      "O resultado desse percurso são duas versões de um mesmo instrumento, com a mesma base ética e o mesmo conjunto de perguntas essenciais. ",
+      "A Versão A Qualitativa opera por fluxograma sequencial: o CEP percorre cinco eixos em ordem, responde a perguntas de sim ou não, e o nível de risco emerge da combinação das respostas. É um instrumento orientado ao raciocínio. Guia o avaliador sem substituí-lo. Esse procedimento é indicado para CEPs que estão começando a se familiarizar com a avaliação de protocolos envolvendo IA, para casos em que os protocolos apresentam menor complexidade técnica, e também quando é prioritário garantir transparência no processo deliberativo em vez de um resultado numericamente preciso. A abordagem do pior cenário, que considera um único eixo em Nível IV como elevador de todo o protocolo, reflete o princípio da precaução presente na ética da pesquisa envolvendo seres humanos (BRASIL, 2012; BRASIL, 2024; BRASIL, 2025).",
+      "A Versão B Quantitativa opera por pontuação ponderada: as mesmas perguntas recebem pesos numéricos diferenciados, distribuídos em sete blocos temáticos, e a soma determina o nível de risco em uma escala de 238 pontos. O instrumento orienta à rastreabilidade. Permite identificar onde o risco está concentrado, como as mitigações adotadas o reduziram e como protocolos distintos se comparam entre si. A escolha por essa versão se justifica para CEPs com maior experiência na avaliação de protocolos com IA, para protocolos de alta complexidade técnica e para instituições que precisam documentar e auditar suas decisões com precisão, como hospitais universitários, institutos nacionais de pesquisa e patrocinadores de ensaios clínicos multicêntricos. Os blocos de Impacto e Dados concentram 43% da pontuação total. Essa concentração expressa a hierarquia de prioridades do instrumento. O que mais importa, em pesquisa com seres humanos, é o que o sistema pode fazer à pessoa participante e como seus dados são tratados.",
+      "As duas versões são compatíveis e complementares. Um CEP pode adotar a Versão A como triagem inicial e recorrer à Versão B para aprofundar a análise de protocolos que a Versão A classifique nos Níveis III ou IV. Um CEP pode adotar a Versão B sistematicamente e usar a Versão A como guia de orientação para pesquisadores que precisam compreender a lógica da avaliação antes de submeter seus protocolos. Um CEP pode, ainda, optar por nenhuma das versões e usar este capítulo como marco conceitual para desenvolver seu próprio instrumento, adaptado às especificidades de sua área temática, de sua estrutura institucional e do perfil dos protocolos que recebe. A flexibilidade garante a validade do guia. Ignorar a diversidade institucional dos CEPs brasileiros comprometeria seu propósito.",
+      "A avaliação ética de protocolos com inteligência artificial não pode ser reduzida a uma formalidade. Nenhuma das duas versões da matriz admite esse risco.",
+      "A IA não é neutra. Ela assimila os vieses dos dados de treinamento, utiliza lógicas pouco transparentes e gera impactos sobre participantes que nenhum outro método contemporâneo produz com igual escala e rapidez. O CEP que avalia um protocolo com IA não está avaliando uma tecnologia, mas sim o impacto que essa tecnologia pode produzir sobre seres humanos concretos, em contextos concretos, com vulnerabilidades concretas. As matrizes deste guia existem para tornar essa avaliação mais rigorosa. A responsabilidade pela avaliação permanece, integralmente, com os CEPs.",
+      "",
+      "7.2 Fundamentos, fontes e descrição das matrizes",
+      "Esta seção apresenta as bases teóricas, normativas e metodológicas que sustentam as duas versões da MARA (Matriz de Avaliação de Risco Algorítmico). Cada escolha de desenho tem fundamento em experiências regulatórias documentadas e no marco jurídico brasileiro. Isso vale para os eixos, as perguntas, os pesos e a lógica de chegada ao nível de risco. A descrição das duas versões está organizada em subseções independentes. A seção 7.2.1 trata da Versão A Qualitativa. A seção 7.2.2 trata da Versão B Quantitativa. As duas versões compartilham a mesma base ética e o mesmo conjunto de perguntas essenciais. O que as distingue é a lógica de operação. Essa distinção determina o público e o contexto para os quais cada versão é mais adequada.",
+      "MARA é um instrumento de gradação proporcional. Opera sobre um espectro que vai do risco baixo ao risco crítico e reconhece que a maioria dos protocolos com IA ocupa posições intermediárias que admitem salvaguardas, condicionantes e mitigações. Essa gradação tem um limite que o instrumento não transpõe. Três dimensões não são graduáveis pela MARA: dano direto e potencialmente irreversível ao participante sem mecanismo documentado de interrupção e reparação; ausência de supervisão humana efetiva em contexto em que o sistema influencia decisões clínicas críticas; e incerteza técnica não documentada sobre o comportamento do sistema no contexto de uso declarado. Diante dessas dimensões, o princípio de não maleficência e o princípio de precaução estabelecidos pela Lei n.º 14.874/2024 prevalecem sobre qualquer resultado que a soma dos blocos produza (BRASIL, 2024). A matriz estrutura o julgamento do CEP. Não esgota seus limites éticos.. Esses limites estão nos princípios que a lei estabelece e que nenhum instrumento de avaliação tem competência para relativizar.",
+      "",
+      "7.2.1 Versão A qualitativa ",
+      "A avaliação ética de protocolos de pesquisa que utilizam inteligência artificial exige instrumentos que traduzam a complexidade técnica dos sistemas algorítmicos de impacto ético mensurável sobre a pessoa participante. A MARA — Versão A Qualitativa foi construída a partir dessa premissa, com fundamento em oito experiências regulatórias internacionais e ancorada no marco jurídico brasileiro.",
+      "",
+      "A escolha pela abordagem qualitativa",
+      "A Versão A da Matriz adota uma lógica qualitativa estruturada: perguntas de resposta binária, organizadas em cinco eixos temáticos, percorridos em sequência por meio de um fluxograma. Essa escolha se apoia na experiência do modelo australiano (AUSTRALIA, 2023), que demonstrou que instrumentos de avaliação ética são mais eficazes quando orientam o julgamento do avaliador sem substituí-lo. O CEP não precisa dominar a arquitetura técnica do sistema, mas sim compreender o impacto que ele pode produzir (NHMRC, 2023). A lógica qualitativa preserva essa centralidade do julgamento ético, ao mesmo tempo que garante sistematicidade e rastreabilidade ao processo de avaliação.",
+      "O formato de perguntas binárias, em que qualquer resposta de risco aumenta a classificação no eixo, foi adaptado do modelo canadense de Avaliação de Impacto Algorítmico (CANADA, 2025). O AIA canadense demonstrou, em uso consolidado desde 2019, que perguntas objetivas e bem formuladas são instrumentos eficazes para avaliadores sem formação técnica em ciência da computação. A versão brasileira adota essa lógica, ampliando-a para o cenário da pesquisa envolvendo seres humanos. Ela direciona a atenção da prestação de serviços públicos governamentais para a proteção dos participantes dessas pesquisas.",
+      "",
+      "O filtro de entrada e a caracterização do contexto de uso",
+      "O Passo 0 (filtro de entrada) distingue usos rotineiros de usos que demandam avaliação aprofundada. Essa distinção é essencial. Sem um filtro inicial, os comitês analisam indiscriminadamente desde ferramentas para organização bibliográfica até sistemas autônomos de apoio diagnóstico. Isso compromete a eficiência e a proporcionalidade do processo (FDA, 2025). A diretriz da Food and Drug Administration dos Estados Unidos, publicada em janeiro de 2025, demonstrou que nenhuma avaliação de risco algorítmico começa sem a definição precisa do contexto de uso. Trata-se do papel específico do sistema e do escopo da pergunta que ele foi desenvolvido para responder (FDA, 2025). A Matriz incorpora essa exigência como etapa prévia obrigatória aos cinco eixos.",
+      "",
+      "Os cinco eixos e suas fontes",
+      "O Eixo 1, dedicado à natureza e à autonomia do sistema, articula dois conceitos complementares. O primeiro é o de influência do modelo: o quanto a IA pesa na decisão final, em relação a outras fontes de evidência (FDA, 2025). O Ministério da Segurança Alimentar e de Medicamentos da Coreia do Sul (MFDS, 2023) define dois critérios: Potencialidade de Má Função, ou seja, a chance de falhas algorítmicas causarem dano clínico; e Oportunidade de Contestação, que é a possibilidade real do profissional questionar o resultado do sistema. A combinação dessas duas dimensões permite ao CEP avaliar não apenas o que o sistema faz, mas o que acontece quando ele erra. O mais importante, nesse momento, é saber quem detém a capacidade de intervir.",
+      "O Eixo 2 examina o impacto sobre a pessoa participante. Suas bases estão na Lei n.º 14.874, de 28 de maio de 2024, e no Decreto n.º 12.651, de 2025, que estabelecem os princípios éticos fundamentais da pesquisa com seres humanos no Brasil (BRASIL, 2024; 2025). O eixo inclui pergunta específica sobre populações vulneráveis: crianças, gestantes, idosos, povos indígenas e pessoas em situação de vulnerabilidade socioeconômica. Essa inclusão responde a uma lacuna dos modelos internacionais analisados. Nenhum deles foi concebido para o contexto epidemiológico e social brasileiro, marcado por desigualdades regionais acentuadas e pela pluralidade étnica e cultural da população atendida pelo Sistema Único de Saúde. O eixo incorpora ainda pergunta sobre mecanismo de exclusão de dados do treinamento do modelo. Essa pergunta tem fundamento nas diretrizes do Indian Council of Medical Research (ICMR), que institui o direito de o participante solicitar a supressão de seus dados do repositório utilizado pela IA a qualquer tempo (ICMR, 2023). Nenhum dos modelos ocidentais analisados prevê esse direito.",
+      "O Eixo 3, sobre sensibilidade e governança dos dados, é o eixo mais diretamente ancorado no direito brasileiro. A LGPD classifica dados de saúde como dados pessoais sensíveis e exige base legal específica, finalidade declarada e identificação do Encarregado de Dados para seu tratamento. Esse conjunto de exigências é mais protetivo do que as legislações de proteção de dados de todos os países analisados neste guia, à exceção do Regulamento Geral de Proteção de Dados da União Europeia (GDPR). O contraste torna-se ainda mais evidente em relação à Lei de Proteção de Dados Pessoais Digitais da Índia (Digital Personal Data Protection Act) de 2023, que eliminou a categoria de dados sensíveis do texto legal, passando a tratar dados de saúde como qualquer outro dado pessoal (CARNEGIE ENDOWMENT, 2023). Este guia considera essa decisão legislativa um risco que deve ser evitado. ",
+      "O contraste torna-se ainda mais evidente em relação à Lei de Proteção de Dados Pessoais Digitais da Índia (Digital Personal Data Protection Act), de 2023, que eliminou a categoria de dados sensíveis do texto legal e passou a tratar dados de saúde como qualquer outro dado pessoal (CARNEGIE ENDOWMENT, 2023). Equiparar prontuários, dados genéticos e registros psiquiátricos a dados comerciais correntes expõe os participantes de pesquisa a riscos de discriminação sem respaldo jurídico para proteção diferenciada. ",
+      "A LGPD brasileira faz escolha oposta. Dados de saúde constituem categoria sensível com proteção reforçada. Essa distinção é um dos pilares do Eixo 3 da Matriz. O eixo inclui ainda pergunta específica sobre risco de reidentificação. O MRCT Center e WCG (2025) documentaram que grandes modelos de linguagem conseguem inferir identidades a partir de dados aparentemente anonimizados. Esse risco não desaparece com a anonimização formal.",
+      "O Eixo 4, sobre representatividade e transferibilidade, responde a uma das principais lacunas éticas identificadas na literatura internacional: modelos treinados predominantemente com dados de populações de alta renda e do hemisfério norte apresentam desempenho sistematicamente inferior quando aplicados a populações de diferentes características étnicas, socioeconômicas e geográficas (WHO, 2024). ",
+      "O guia australiano e as diretrizes do MFDS coreano documentaram que a ausência de validação local é um dos principais fatores de risco ético em protocolos que importam sistemas desenvolvidos em outros contextos (AUSTRALIA, 2023; MFDS, 2023). O eixo incorpora ainda pergunta sobre *data drift*. Modelos de aprendizado de máquina degradam seu desempenho à medida que os dados do mundo real divergem dos dados de treinamento. Esse fenômeno exige monitoramento contínuo ao longo de todo o ciclo de vida do sistema. A pergunta tem fundamento no conceito de manutenção do ciclo de vida desenvolvido pela FDA (2025) e operacionalizado pelo sistema IDATEN da agência regulatória japonesa (PMDA, [s.d.]).",
+      "O Eixo 5 examina a supervisão humana e a explicabilidade. Seu fundamento central é o princípio da autonomia médica irrevogável enunciado pelo ICMR (2023). A inteligência artificial serve para amplificação diagnóstica. Não substitui o julgamento clínico. O profissional responsável é o garantidor da verificação humana de todo resultado gerado pela IA. Esse princípio articula-se com o conceito de humano no circuito decisório (human-in-the-loop) presente no modelo australiano (AUSTRALIA, 2023). ",
+      "Ele se articula com a exigência da FDA de que, quando o contexto de uso envolve um humano no processo decisório, a avaliação de desempenho do sistema considere o resultado da equipe humano-IA, não apenas o desempenho isolado do modelo (FDA, 2025). O eixo incorpora ainda pergunta sobre o protocolo de retreinamento do modelo. Essa pergunta tem fundamento no Protocolo de Mudança de Algoritmo (Algorithm Change Protocol) indiano, que exige que os fabricantes submetam antecipadamente um plano descrevendo como o modelo será atualizado (CDSCO, 2025). No contexto deste guia, esse princípio se traduz na responsabilidade do pesquisador de informar ao CEP como e quando o modelo será modificado durante o estudo.",
+      "A convergência de alguns eixos em torno do impacto clínico sobre o participante é intencional, não é sobreposição inadvertida. Os eixos de natureza e autonomia do sistema, de impacto sobre a pessoa participante e de transferibilidade e desempenho avaliam dimensões distintas de uma mesma realidade: o que o sistema pode fazer à pessoa que participa da pesquisa. O eixo de natureza examina como o sistema opera. O eixo de impacto examina o que o sistema produz sobre o participante. O eixo de transferibilidade examina se o que o sistema produz num contexto continuará válido noutro. São perguntas diferentes sobre o mesmo risco porque o risco tem múltiplas dimensões que um único eixo não captura. Um protocolo que apresenta alto risco nesses três eixos simultaneamente não está sendo penalizado três vezes pelo mesmo problema. Está demonstrando que o risco é consistente, estrutural e não mitigável por uma única salvaguarda. A convergência entre eixos num resultado de alto risco é evidência de gravidade, não artefato metodológico.",
+      "",
+      "A lógica do fluxograma sequencial e a regra crítica",
+      "O fluxograma sequencial foi adotado por dois motivos. O primeiro é pedagógico. A sequência guia o avaliador de forma progressiva, do mais simples ao mais complexo, e evita saltos que comprometam a consistência da análise. O segundo é ético. O nível de risco só sobe, nunca desce. Essa lógica é coerente com o princípio da precaução que fundamenta a ética em pesquisa com seres humanos (BRASIL, 2025). Um único eixo em Nível IV é suficiente para elevar o protocolo inteiro ao nível mais alto de exigência, independentemente do desempenho nos demais eixos. A ausência de supervisão humana em um sistema que influencia decisões terapêuticas, por exemplo, não é compensada por boas respostas nos eixos de dados ou representatividade.",
+      "A regra crítica tem origem direta no modelo canadense de Avaliação de Impacto Algorítmico (CANADA, 2025). O modelo demonstrou que permitir que mitigações reduzam o nível de risco cria um incentivo perverso. Pesquisadores passam a declarar salvaguardas para obter classificações mais favoráveis. Deixam de demonstrar que o risco foi efetivamente controlado. A regra resolve esse problema com uma separação clara. O nível de risco é determinado pelas características do sistema e do protocolo. Os requisitos exigidos são ajustados em função das garantias demonstradas. Essa separação preserva a integridade do instrumento e a clareza da comunicação entre pesquisador e comitê.",
+      "7.2.2 Versão B quantitativa ",
+      "A Versão B da MARA utiliza perguntas com pesos numéricos variados em sete blocos temáticos. A soma dos pontos determina o risco do protocolo em uma escala de I a IV. Essa abordagem torna suas decisões mais rastreáveis e auditáveis. A pontuação apenas indica áreas de risco e mostra como as escolhas do pesquisador afetam esse risco.",
+      "A escolha pela abordagem quantitativa",
+      "A lógica quantitativa tem inspiração no modelo canadense de Avaliação de Impacto Algorítmico (CANADA, 2025). O modelo opera com 65 perguntas de risco, pontuação máxima de 169 pontos, e 41 perguntas de mitigação, pontuação máxima de 75 pontos, distribuídas em quatro níveis de risco. ",
+      "A experiência canadense demonstrou duas vantagens concretas do modelo quantitativo. A primeira é a precisão: a pontuação identifica em quais dimensões o risco está concentrado e orienta as exigências do comitê de forma proporcional. A segunda é a consistência: protocolos avaliados em momentos diferentes e por membros diferentes do CEP tornam-se comparáveis, o que fortalece a coerência das decisões institucionais (CANADA, 2025). A Versão B incorpora essa lógica e a adapta ao contexto da pesquisa com seres humanos no Brasil. O foco deixa de ser serviços públicos governamentais e passa a ser a proteção dos participantes de pesquisa e a conformidade com a LGPD.",
+      "A estrutura em sete blocos foi proposta pela equipe do INAEP: Projeto, Sistema, Algoritmo, Decisão, Impacto, Dados e Mitigação. Os blocos de maior peso ético e regulatório recebem perguntas com valor individual mais alto. Essa escolha torna explícita a hierarquia de prioridades do instrumento. Os blocos de Impacto e Dados concentram juntos 107 dos 244 pontos máximos da matriz. Representam 44% da pontuação total. Essa concentração expressa uma escolha deliberada. Em pesquisa com seres humanos, o que mais importa é o que o sistema pode fazer à pessoa participante e como seus dados são tratados.",
+      "",
+      "O filtro de entrada e a caracterização do contexto de uso",
+      "A Versão B mantém, da Versão A, o Passo 0 e a caracterização do contexto de uso como etapas obrigatórias anteriores à pontuação. A diretriz da Food and Drug Administration dos Estados Unidos demonstrou que nenhuma avaliação de risco algorítmico começa sem a definição precisa do contexto de uso: o papel específico do sistema e o escopo da pergunta que ele foi desenvolvido para responder (FDA, 2025). A caracterização não pontua. Delimita o objeto da avaliação e impede que o CEP avalie o sistema em abstrato, desvinculado do protocolo concreto submetido à análise.",
+      "",
+      "Os sete blocos e suas fontes",
+      "O Bloco 1 avalia a adequação do protocolo para o uso de IA. Examina a transparência na descrição do sistema, a qualificação da equipe, a clareza da justificativa metodológica e a adequação do Termo de Consentimento Livre e Esclarecido. A pontuação máxima é de 22 pontos. Cada pergunta vale três pontos, com exceção da pergunta sobre consulta técnica externa, que vale quatro. O bloco opera como verificação de completude documental. ",
+      "O protocolo deve descrever o estágio de desenvolvimento do sistema: descoberta exploratória (Discovery), tradução clínica (Translation) ou implantação (Deployment). Essa exigência tem fundamento no referencial do MRCT Center e WCG (2025), que demonstrou que os riscos éticos variam conforme o momento do ciclo de vida em que a IA opera. Um sistema em fase de descoberta exploratória apresenta riscos distintos de um sistema já em implantação clínica. Essa distinção deve ser visível no protocolo submetido ao CEP.",
+      "O Bloco 2 avalia a natureza técnica do sistema: autonomia, adaptabilidade, explicabilidade e rastreabilidade. A pontuação máxima é de 17 pontos. Cada pergunta vale dois ou três pontos. O bloco articula dois conceitos desenvolvidos por referenciais distintos. O primeiro é o de influência do modelo: o quanto a IA pesa na decisão final em relação a outras fontes de evidência. Esse conceito foi desenvolvido pela FDA (2025). O segundo é o de potencial de falha (Malfunction Potential) e oportunidade de contestação (Opportunity to Override): a probabilidade de que falhas algorítmicas causem dano clínico e a existência de condições reais para que o profissional responsável questione o resultado do sistema. ",
+      "Esse conceito foi desenvolvido pelo Ministério da Segurança Alimentar e de Medicamentos da Coreia do Sul (MFDS, 2023). As perguntas de risco direto valem três pontos cada. Tratam de situações sem intervenção humana obrigatória, de sistemas adaptativos e de sistemas opacos. Sua proximidade com o risco direto ao participante justifica o peso maior. As perguntas de ausência de garantia valem dois pontos. Tratam de déficits documentais que, embora graves, são mais facilmente corrigíveis.",
+      "O Bloco 3 avalia a qualidade, a origem e a representatividade dos dados de treinamento e de teste. A pontuação máxima é de 15 pontos. Cada pergunta vale dois pontos. O bloco tem fundamento direto no guia australiano e nas diretrizes do MFDS coreano, que documentaram que a ausência de validação local é um dos principais fatores de risco ético em protocolos que utilizam sistemas desenvolvidos em outros contextos (AUSTRALIA, 2023; MFDS, 2023). O bloco inclui pergunta sobre independência entre dados de treinamento e de teste. A diretriz da FDA estabelece que dados de teste devem ser rigorosamente independentes dos dados de desenvolvimento para que a avaliação de desempenho do modelo seja válida (FDA, 2025). Inclui também pergunta sobre representatividade por subgrupos populacionais. A Organização Mundial da Saúde identificou que modelos treinados predominantemente com dados de populações de alta renda e do hemisfério norte apresentam desempenho sistematicamente inferior quando aplicados a populações de diferentes características étnicas, socioeconômicas e geográficas (WHO, 2024). Essa lacuna é especialmente relevante para o contexto brasileiro.",
+      "O Bloco 4 avalia a consequência da decisão. A pontuação máxima é de oito pontos. As duas primeiras perguntas valem três pontos cada. Essa assimetria é deliberada. As perguntas desse bloco tratam das situações de maior gravidade potencial em todo o instrumento: o sistema como único determinante de uma decisão sem revisão humana e a irreversibilidade do dano em caso de erro. A concentração de pontos em poucas perguntas de alto peso reflete a lógica da consequência da decisão desenvolvida pela FDA (2025). Quando o modelo opera com alta influência e baixa supervisão humana, a severidade do desfecho adverso potencial deve ser o fator dominante na avaliação de risco. A pontuação máxima desse bloco, por si só, pode deslocar um protocolo do Nível II para o Nível III. Esse deslocamento expressa a gravidade das situações que essas perguntas descrevem.",
+      "O Bloco 5 avalia o impacto sobre a pessoa participante. A pontuação máxima é de 52 pontos. Cada pergunta vale cinco ou seis pontos. As perguntas de maior impacto direto valem seis pontos: influência em decisões clínicas, risco de dano físico, risco de dano psíquico ou social e envolvimento de populações vulneráveis. O bloco tem suas bases na Lei n.º 14.874, de 28 de maio de 2024, e no Decreto n.º 12.651, de 2025, que estabelecem os princípios éticos fundamentais da pesquisa com seres humanos no Brasil (BRASIL, 2024; 2025). O bloco inclui pergunta sobre inferência de características sensíveis não coletadas explicitamente. O MRCT Center e WCG (2025) documentaram que grandes modelos de linguagem conseguem inferir identidades e atributos sensíveis a partir de dados aparentemente neutros. Esse risco não desaparece com a anonimização formal. O bloco inclui ainda pergunta sobre mecanismo de exclusão de dados do treinamento do modelo. As diretrizes do Indian Council of Medical Research instituem o direito do participante de solicitar a supressão de seus dados do repositório utilizado pela IA a qualquer tempo (ICMR, 2023). Nenhum dos modelos ocidentais analisados prevê esse direito. Este guia o incorpora como exigência ética.",
+      "O Bloco 6 avalia a sensibilidade e a governança dos dados. A pontuação máxima é de 55 pontos. Cada pergunta vale entre cinco e sete pontos. As perguntas diretamente vinculadas à Lei Geral de Proteção de Dados Pessoais valem sete pontos cada. O bloco expressa uma escolha central do guia. A LGPD é o diferencial protetivo mais robusto do marco brasileiro em relação a todos os modelos internacionais analisados. ",
+      "A lei classifica dados de saúde como dados pessoais sensíveis e exige base legal específica, finalidade declarada e identificação do Encarregado de Dados para seu tratamento. Esse nível de proteção supera o da Lei de Proteção de Informações Pessoais chinesa (PIPL), o da Lei de Proteção de Informações Pessoais japonesa (APPI) e, especialmente, o da Lei de Proteção de Dados Pessoais Digitais indiana (Digital Personal Data Protection Act), de 2023, que suprimiu inteiramente a categoria de dados sensíveis de sua redação e equiparou prontuários de saúde a quaisquer outros dados pessoais (CARNEGIE ENDOWMENT, 2023). ",
+      "A pergunta sobre transferência de dados para servidores fora do Brasil vale sete pontos. Dependendo do país receptor e das garantias contratuais estabelecidas, essa transferência pode comprometer integralmente a proteção conferida pela LGPD aos participantes da pesquisa. A pergunta sobre risco de reidentificação incorpora a preocupação documentada com a capacidade dos sistemas de IA de inferir identidades a partir de dados aparentemente anonimizados (MRCT CENTER; WCG, 2025). ",
+      "O Bloco 7 avalia as mitigações. É o único bloco com lógica bidirecional: perguntas de risco somam pontos ao total e perguntas de mitigação subtraem. A pontuação máxima é de 75 pontos. A capacidade de redução chega a 65 pontos. O bloco operacionaliza uma distinção herdada do modelo canadense. Mitigações não alteram o nível de risco determinado pelos demais blocos quando avaliados isoladamente. Reduzem a pontuação total e, por isso, podem deslocar o protocolo para um nível inferior na escala consolidada (CANADA, 2025). Essa lógica é mais flexível do que a da Versão A, em que mitigações não afetam o nível em nenhuma hipótese. Reflete a compreensão de que, na Versão B, a pontuação já incorpora a qualidade das salvaguardas adotadas pelo pesquisador como parte integrante da avaliação de risco.",
+      "O bloco se divide em dois subblocos. O subbloco de consultas vale dez pontos. Avalia se o pesquisador buscou orientação técnica externa antes da submissão, incluindo consulta à ANVISA sobre o enquadramento do sistema como Programa de Computador como Dispositivo Médico (Software as a Medical Device - SaMD). O subbloco de medidas de redução de risco (de-risking) vale 65 pontos. Avalia a qualidade dos mecanismos de supervisão humana, explicabilidade, monitoramento do ciclo de vida e gestão de falhas. O subbloco inclui pergunta sobre monitoramento de deriva de dados (data drift), ou seja, a degradação do desempenho do modelo ao longo do tempo. Essa pergunta tem fundamento no conceito de manutenção do ciclo de vida desenvolvido pela FDA (2025), operacionalizado pelo sistema IDATEN da agência regulatória japonesa (PMDA, [s.d.]) e pelo Protocolo de Mudança de Algoritmo (Algorithm Change Protocol) indiano (CDSCO, 2025).",
+      "",
+      "As faixas de nível e a calibração da pontuação",
+      "As quatro faixas de nível foram calibradas a partir de dois princípios. O primeiro é a proporcionalidade. A faixa do Nível I é estreita, de zero a 50 pontos, porque protocolos com uso de IA verdadeiramente de baixo risco são raros e devem ser classificados com rigor. O segundo é a sensibilidade ao risco. A faixa do Nível IV cobre 58 pontos, de 181 a 238, porque protocolos nesse nível apresentam combinações de características graves em múltiplos blocos. A amplitude da faixa reflete a variação de gravidade dentro do próprio nível crítico. As faixas deverão ser testadas empiricamente com protocolos reais submetidos aos CEPs participantes do processo de validação do guia. Ajustes são possíveis antes da publicação final.",
+      "",
+      "A regra crítica na Versão B",
+      "Na Versão B, a regra crítica assume formulação diferente da Versão A. O nível determinado pela pontuação não pode ser alterado por decisão subjetiva do avaliador. A pontuação é o resultado objetivo da aplicação do instrumento. As mitigações já estão incorporadas na pontuação do Bloco 7. Constituem a única forma legítima de reduzir a pontuação final. Essa arquitetura preserva a integridade do instrumento. Impede que declarações de intenção não documentadas substituam evidências de controle efetivo do risco. O modelo canadense demonstrou que esse princípio é essencial para a credibilidade do instrumento perante pesquisadores, patrocinadores e a sociedade (CANADA, 2025).",
+      "",
+      "7.3 Como aplicar a matriz: passos e procedimentos",
+      "A matriz opera em quatro passos. O Passo 0 verifica se o protocolo exige avaliação aprofundada ou se o uso de IA é rotineiro. O Passo 1 delimita o objeto da avaliação por meio de duas perguntas descritivas obrigatórias. O Passo 2 percorre os cinco eixos de avaliação, que examinam a natureza do sistema, o impacto sobre o participante, a governança dos dados, a representatividade do modelo e a supervisão humana. O Passo 3 traduz os resultados em um dos quatro níveis de risco algorítmico. O Passo 4 associa a cada nível um conjunto de requisitos mínimos que o pesquisador deve demonstrar ter atendido. As seções a seguir descrevem cada passo. Os instrumentos completos constam nos Apêndices A e B.",
+      "",
+      "7.3.1  Passo 0: Filtro de entrada",
+      "O percurso de avaliação começa antes dos eixos e antes da pontuação. O primeiro passo é verificar se o protocolo submetido ao CEP demanda a aplicação da matriz. A pergunta é direta: o sistema de inteligência artificial realiza, neste protocolo, automação de decisão, geração de conteúdo ou intervenção na condução do estudo ou nos seus resultados?  ",
+      "Se a resposta for negativa, o uso é classificado como rotineiro e a matriz não se aplica. Sistemas que operam exclusivamente como suporte administrativo, organização de referências bibliográficas, transcrição de áudio ou qualquer outra função que não influencie as decisões do estudo nem produza efeitos sobre a pessoa participante não entram no escopo da avaliação. O protocolo segue o fluxo ordinário do CEP.",
+      "Se a resposta for afirmativa, o CEP prossegue para a caracterização do contexto de uso. O filtro não dispensa a menção ao uso de IA no protocolo. O pesquisador deve declarar qualquer uso de sistemas algorítmicos, ainda que rotineiro. O que o filtro determina é o nível de profundidade da avaliação.",
+      "",
+      "A distinção entre uso rotineiro e uso não rotineiro tem fundamento no referencial do MRCT Center e WCG (2025). A ausência de um critério de entrada claro leva os CEPs a avaliarem indiscriminadamente ferramentas de baixíssimo impacto junto a sistemas de alto risco. Esse equívoco compromete a eficiência e a proporcionalidade do processo. O filtro de entrada resolve esse problema antes que ele ocorra.",
+      "A obrigação de declarar o uso de inteligência artificial na pesquisa antecede as matrizes deste guia. A Política de Integridade na Atividade Científica do Conselho Nacional de Desenvolvimento Científico e Tecnológico, instituída pela Portaria de 11 de março de 2026, determina que qualquer uso de inteligência artificial generativa deve ser declarado, com especificação da ferramenta utilizada e da finalidade, em qualquer fase do desenvolvimento da pesquisa (CNPq, 2026). O filtro de entrada da matriz verifica, antes de qualquer outra etapa, se essa declaração está presente e se o papel do sistema está descrito com precisão suficiente para viabilizar a avaliação. A ausência dessas informações não configura lacuna documental. Configura violação de integridade científica com respaldo normativo expresso na legislação federal vigente.",
+      "",
+      "7.3.2 Passo 1: Caracterização do contexto de uso",
+      "Aprovado o filtro de entrada, o CEP solicita ao pesquisador a resposta a duas perguntas descritivas, obrigatórias em ambas as versões da matriz.",
+      "A primeira: qual é a pergunta que o sistema de IA foi desenvolvido para responder neste protocolo? A segunda: o sistema responde a essa pergunta de forma autônoma ou subsidia uma decisão tomada por um ser humano?",
+      "Essas perguntas não pontuam e não determinam o nível de risco por si mesmas. Delimitam o objeto da avaliação. Impedem que o CEP avalie o sistema em abstrato, desvinculado do protocolo concreto submetido à análise. Um mesmo sistema de IA pode apresentar perfis de risco radicalmente distintos conforme o papel que desempenha em cada protocolo. Um modelo de linguagem utilizado para apoiar a codificação de dados qualitativos é um objeto de avaliação diferente do mesmo modelo utilizado para gerar recomendações terapêuticas personalizadas. O contexto de uso define o que está sendo avaliado.",
+      "Esse conceito foi desenvolvido pela Food and Drug Administration dos Estados Unidos, que demonstrou ser impossível avaliar a credibilidade de um sistema de IA para fins regulatórios sem antes definir com precisão para qual pergunta ele foi desenvolvido e em qual contexto de uso específico será aplicado (FDA, 2025). A Matriz do INAEP incorpora essa exigência como etapa prévia obrigatória, anterior a qualquer classificação de risco.",
+      "",
+      "7.3.3 Passo 2: Os cinco eixos de avaliação",
+      "Após caracterizar o contexto de uso, o CEP avalia os cinco eixos do risco algorítmico. Cada eixo corresponde a uma dimensão, cujo nível de risco é definido por respostas qualitativas (Versão A) ou pontuação ponderada (Versão B). Os cinco eixos são descritos a seguir. As perguntas de cada eixo constam integralmente nos Apêndices A e B.",
+      "O Eixo 1 examina a natureza e a autonomia do sistema. Avalia se opera de forma autônoma ou sob supervisão humana obrigatória, se é adaptativo, se é explicável e se foi validado antes do uso no protocolo. O eixo articula dois referenciais distintos. A FDA (2025) desenvolveu o conceito de influência do modelo: o quanto a IA pesa na decisão final em relação a outras fontes de evidência. O Ministério da Segurança Alimentar e de Medicamentos da Coreia do Sul desenvolveu os conceitos de potencial de falha (Malfunction Potential) e oportunidade de contestação (Opportunity to Override) (MFDS, 2023). O primeiro avalia a probabilidade de que falhas algorítmicas gerem risco clínico. O segundo avalia o grau em que os profissionais têm condições concretas de questionar as decisões do sistema.",
+      "O Eixo 2 examina o impacto sobre a pessoa participante. Avalia se o sistema afeta decisões clínicas, se pode causar danos físicos, psíquicos, sociais ou econômicos, se envolve populações vulneráveis e se infere características sensíveis não fornecidas diretamente pelo participante. O eixo tem fundamento direto na legislação brasileira de pesquisa com seres humanos (BRASIL, 2024; 2025). Incorpora ainda o direito do participante de solicitar a exclusão de seus dados do treinamento do modelo, instituído pelas diretrizes do Indian Council of Medical Research (ICMR, 2023).",
+      "O Eixo 3 examina a sensibilidade e a governança dos dados. Avalia se os dados tratados no protocolo são sensíveis nos termos da LGPD, se são transferidos para servidores fora do Brasil, se há risco real de reidentificação, se o consentimento cobre o uso para treinamento de modelos e se há plano de resposta a incidentes. O eixo está mais diretamente ancorado no direito brasileiro do que qualquer outro da matriz. Na Versão B, recebe o maior peso regulatório do instrumento.",
+      "O Eixo 4 examina a representatividade e a transferibilidade do modelo. Avalia se os dados de treinamento representam a diversidade da população-alvo do protocolo, se o modelo foi validado em contexto comparável ao SUS, se há avaliação de desempenho por subgrupos populacionais e se os dados de teste são independentes dos dados de treinamento. O eixo responde a uma das principais lacunas éticas identificadas na literatura internacional. Modelos treinados predominantemente com dados de populações de alta renda e do hemisfério norte apresentam desempenho sistematicamente inferior quando aplicados a populações de diferentes características étnicas, socioeconômicas e geográficas (WHO, 2024). Essa lacuna é especialmente crítica para protocolos conduzidos no âmbito do SUS.",
+      "O Eixo 5 examina a supervisão humana e a explicabilidade. Avalia se há revisão humana obrigatória antes da execução das decisões, se a equipe tem competência técnica para interpretar e contestar os resultados, se há monitoramento contínuo do desempenho e se há protocolo documentado para falhas e para o retreinamento do modelo. O fundamento central do eixo é o princípio da autonomia médica irrevogável enunciado pelo ICMR (2023). A inteligência artificial serve para amplificação diagnóstica. Não substitui o julgamento clínico. O eixo incorpora ainda o conceito de manutenção do ciclo de vida desenvolvido pela FDA (2025) e operacionalizado pelo sistema de avaliação tempestiva de inovação (Improvement Design within Approval for Timely Evaluation Notice — IDATEN) da agência regulatória japonesa (PMDA, [s.d.]).",
+      "",
+      "7.3.4 Passo 3  Níveis I a IV",
+      "O resultado da avaliação pelos cinco eixos é a classificação do protocolo em um dos quatro níveis de risco algorítmico. Os níveis não são categorias de aprovação ou reprovação — são classificações que determinam o conjunto de requisitos mínimos que o pesquisador deve demonstrar ter atendido antes da aprovação pelo CEP.",
+      "O Nível I  (Baixo) corresponde a protocolos em que o sistema de IA opera com autonomia limitada, sem influência direta sobre decisões clínicas ou terapêuticas, com dados de baixa sensibilidade e supervisão humana efetiva. Exemplos típicos incluem o uso de IA para organização e categorização de referências bibliográficas, transcrição automatizada de entrevistas ou apoio à análise exploratória de dados não identificados.",
+      "O Nível II (Moderado) corresponde a protocolos em que o sistema de IA desempenha papel mais relevante no protocolo, mas com consequências reversíveis e supervisão humana garantida. Exemplos típicos incluem o uso de modelos de linguagem para apoio à codificação qualitativa, sistemas de triagem de elegibilidade de participantes ou ferramentas de análise de imagens médicas com revisão humana obrigatória.",
+      "O Nível III (Alto) corresponde a protocolos em que o sistema de IA influencia diretamente decisões com potencial de dano ao participante, opera com dados sensíveis em larga escala ou apresenta limitações documentadas de representatividade e transferibilidade. Exemplos típicos incluem sistemas de apoio diagnóstico em unidades básicas de saúde, modelos preditivos de risco em ensaios clínicos e ferramentas de estratificação de pacientes para protocolos terapêuticos.",
+      "O Nível IV corresponde ao risco crítico. Enquadram-se nesse nível os protocolos em que o sistema opera com alta autonomia em decisões de impacto direto e potencialmente irreversível sobre o participante, sem supervisão humana efetiva ou com lacunas graves de validação e governança. São exemplos típicos: sistemas autônomos de decisão terapêutica, ferramentas de diagnóstico sem revisão humana obrigatória e modelos de prognóstico utilizados para definir elegibilidade em estudos de acesso a tratamentos experimentais.",
+      "",
+      "7.3.5 Passo 4 Requisitos por nível",
+      "A cada nível corresponde um conjunto de requisitos mínimos que o pesquisador deve atender antes da aprovação do protocolo pelo CEP. Os requisitos são cumulativos. Os do Nível II incluem os do Nível I. Os do Nível III incluem os dos Níveis I e II. Os do Nível IV incluem todos os anteriores.",
+      "No Nível I, exige-se a declaração de uso de IA no protocolo e a menção, no Termo de Consentimento Livre e Esclarecido, de que um sistema algorítmico será utilizado e qual é o seu papel no estudo.",
+      "No Nível II, acrescentam-se a descrição do sistema e a origem dos dados de treinamento, a demonstração de conformidade com a LGPD e a indicação da base legal para o tratamento dos dados utilizados.",
+      "No Nível III, acrescentam-se a documentação de validação técnica do sistema, a análise de desempenho por subgrupos populacionais relevantes, a comprovação de mecanismo de supervisão humana efetiva no circuito decisório (human-in-the-loop) e a identificação do Encarregado de Dados da instituição responsável pelo estudo.",
+      "",
+      "No Nível IV, acrescentam-se o parecer técnico externo sobre o sistema, o plano de monitoramento contínuo com critérios definidos de interrupção, a notificação à ANVISA quando o sistema se enquadrar como Programa de Computador como Dispositivo Médico (Software as a Medical Device - SaMD) e a submissão do protocolo à apreciação em instância superior do CEP, quando prevista no regimento institucional.",
+      "",
+      "7.3.6 A regra crítica",
+      "O nível de risco determinado pela avaliação não muda com as mitigações apresentadas pelo pesquisador após a classificação. Isso vale para a lógica qualitativa da Versão A e para a pontuação da Versão B. Apenas os requisitos exigidos podem ser ajustados em função das garantias demonstradas.",
+      "A regra tem fundamento direto no modelo canadense de Avaliação de Impacto Algorítmico (CANADA, 2025). Permitir que mitigações reduzam o nível de risco cria um incentivo estruturalmente perverso. Pesquisadores passam a declarar salvaguardas para obter classificações mais favoráveis. Deixam de demonstrar que o risco foi efetivamente controlado. A separação entre nível de risco e requisitos exigidos preserva a integridade do instrumento. Preserva também a clareza da comunicação entre pesquisador e comitê.",
+      "Na Versão B, as mitigações já estão incorporadas na pontuação do Bloco 7. Constituem a única forma legítima de reduzir a pontuação final. Essa é a única forma pela qual mitigações influenciam o resultado, pois já estão incorporadas ao cálculo do instrumento.",
+      "A regra crítica expressa o princípio que orienta todo este capítulo. O CEP não avalia intenções. Avalia evidências. A inteligência artificial que um protocolo descreve como supervisionada, explicável e validada precisa demonstrar que é supervisionada, explicável e validada. A matriz existe para tornar essa demonstração sistemática. A responsabilidade por exigi-la permanece com o Comitê. ",
+      "A coexistência entre pontuação ponderada e regra crítica merece formulação explícita para evitar leitura ambígua. As duas operam em momentos distintos e com lógicas distintas. A pontuação percorre os sete blocos, acumula o perfil de risco distribuído do protocolo e produz uma classificação baseada na soma total, já com as mitigações do Bloco 7 incorporadas. A regra crítica entra depois, como cláusula de prevalência ética: verifica se alguma dimensão do protocolo apresenta falha estrutural que a soma total não deve ocultar. Quando a regra crítica se aplica, ela não anula a pontuação — ela prevalece sobre ela. O resultado é que um protocolo com soma favorável mas com falha estrutural numa dimensão crítica não deve ser interpretado como de baixo risco. A pontuação mapeia o risco distribuído. A regra crítica protege contra a ilusão de que a média pode ocultar o inaceitável. As duas operam na mesma direção: garantir que o CEP avalie evidências, não intenções.",
+      "Referências",
+      "AUSTRALIA. National Health and Medical Research Council (NHMRC). Guide for assessing research involving AI. Canberra: NHMRC, 2023. Disponível em: https://www.nhmrc.gov.au/about-us/resources/guide-assessing-research-involving-ai. Acesso em: 10 mar. 2026.",
+      "BRASIL. Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq). Política de Integridade na Atividade Científica. Brasília, DF: CNPq, 11 mar. 2026. Disponível em: https://www.gov.br/cnpq/pt-br/assuntos/noticias/cnpq-em-acao/cnpq-publica-portaria-que-institui-politica-de-integridade-na-atividade-cientifica. Acesso em: 13 mar. 2026.",
+      "BRASIL. Lei n.º 14.874, de 28 de maio de 2024. Dispõe sobre a pesquisa com seres humanos e institui o Sistema Nacional de Ética em Pesquisa com Seres Humanos. Brasília, DF: Diário Oficial da União, 29 maio 2024.",
+      "BRASIL. Decreto n.º 12.651, de 2025. Regulamenta a Lei n.º 14.874, de 28 de maio de 2024. Brasília, DF: Diário Oficial da União, 2025.",
+      "CANADA. Treasury Board of Canada Secretariat. Algorithmic impact assessment (AIA). Ottawa: Government of Canada, 2025. Disponível em: https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/algorithmic-impact-assessment.html. Acesso em: 10 mar. 2026.",
+      "CARNEGIE ENDOWMENT FOR INTERNATIONAL PEACE. Understanding India's new data protection law. Washington, DC: Carnegie Endowment, 2023. Disponível em: https://carnegieendowment.org/research/2023/10/understanding-indias-new-data-protection-law. Acesso em: 11 mar. 2026.",
+      "COREIA DO SUL. Ministry of Food and Drug Safety (MFDS). Guidance on clinical trials design of artificial intelligence (AI)-based medical devices. Seoul: MFDS, 2023. Disponível em: https://www.elendilabs.com/en/articles/kor-guidance-on-clinical-trials-design-of-artificial-intelligence-based-medical-devices. Acesso em: 11 mar. 2026.",
+      "INDIA. Central Drugs Standard Control Organization (CDSCO). Draft guidance on medical device software. New Delhi: CDSCO, out. 2025. Disponível em: https://community.nasscom.in/communities/public-policy/cdsco-issues-draft-guidance-medical-device-software. Acesso em: 11 mar. 2026.",
+      "INDIA. Indian Council of Medical Research (ICMR). Ethical guidelines for application of artificial intelligence in biomedical research and healthcare. New Delhi: ICMR, 2023. Disponível em: https://www.icmr.gov.in/ethical-guidelines-for-application-of-artificial-intelligence-in-biomedical-research-and-healthcare. Acesso em: 11 mar. 2026.",
+      "JAPÃO. Pharmaceuticals and Medical Devices Agency (PMDA). Report on AI-based software as a medical device (SaMD). Tokyo: PMDA, [s.d.]. Disponível em: https://www.pmda.go.jp/files/000266100.pdf. Acesso em: 11 mar. 2026.",
+      "MULTI-REGIONAL CLINICAL TRIALS CENTER OF BRIGHAM AND WOMEN'S HOSPITAL AND HARVARD (MRCT Center); WCG. Artificial intelligence toolkit for clinical research 2025. Boston: MRCT Center; WCG, 2025.",
+      "UNITED STATES. Food and Drug Administration (FDA). Considerations for the use of artificial intelligence to support regulatory decision-making for drug and biological products: guidance for industry and other interested parties. Silver Spring: FDA, jan. 2025. Disponível em: https://www.fda.gov/regulatory-information/search-fda-guidance-documents. Acesso em: 10 mar. 2026.",
+      "WORLD HEALTH ORGANIZATION (WHO). Ethics and governance of artificial intelligence for health: guidance on large multi-modal models. Geneva: WHO, 2024. Disponível em: https://www.who.int/publications/i/item/9789240093461. Acesso em: 10 mar. 2026.",
+      "",
+      ""
+    ],
+    "tables": []
+  },
+  "CAPI_TULO_9_corrigido.docx": {
+    "paragraphs": [
+      "CAPÍTULO 9 Capacitação dos Comitês de Ética em Pesquisa ",
+      "Os capítulos anteriores formaram, situaram, instrumentalizaram e especificaram. Este capítulo fecha o ciclo com a pergunta que fica implícita em todos os outros: como o CEP desenvolve e mantém, ao longo do tempo, a capacidade de fazer essas perguntas? A resposta não está num curso de oito horas nem num manual de certificação técnica. Este capítulo fornece bases, ferramentas e exercícios para uma prática deliberativa progressiva. Cada parecer fundamentado sobre protocolo com IA é um tijolo nessa construção. O Capítulo 9 oferece o projeto.",
+      "",
+      "Quadro 9.1 Guia de leitura do Capítulo 9",
+      "",
+      "9.1 O que significa capacitar um CEP para avaliar pesquisa com IA ",
+      "Formar um Comitê de Ética em Pesquisa para avaliar protocolos com inteligência artificial não é transformar seus membros em especialistas em aprendizado de máquina. Não é oferecer um curso de ciência de dados, ensinar a auditar código-fonte ou desenvolver competência para calcular métricas de desempenho de modelos. ",
+      "Essa confusão é frequente e tem consequência prática grave: produz programas de capacitação que sobrecarregam membros de CEP com conteúdo técnico que nunca utilizarão, enquanto deixam sem resposta as perguntas que precisarão formular diante de cada protocolo. A pergunta sobre a composição demográfica da base de treino não exige que o avaliador saiba treinar um modelo. Exige que ele saiba que essa informação existe, que o protocolo deve contê-la e que a ausência dela é indicador de risco. Um CEP bem capacitado para avaliar pesquisa com IA não é um CEP que sabe mais sobre IA. É um CEP que sabe o que perguntar sobre ela.",
+      "A capacitação para avaliação ética de pesquisa com IA desenvolve três competências distintas que se reforçam sem se confundir. A competência conceitual é o vocabulário mínimo que torna as perguntas possíveis: entender o que é um dado de treino, o que é uma inferência, o que distingue um sistema classificatório de um sistema generativo, o que significa deriva de dados num protocolo longitudinal. ",
+      "Esse vocabulário não precisa ser profundo. Precisa ser preciso o suficiente para que a pergunta chegue ao lugar certo do protocolo. A competência instrumental é a capacidade de usar os instrumentos do guia na avaliação de casos reais: aplicar a MARA, percorrer o roteiro de perguntas do Capítulo 5, identificar sinalizadores de alerta, distinguir protocolo incompleto de protocolo inadequado. ",
+      "A competência institucional é a mais negligenciada e a mais importante: o desenvolvimento de práticas colegiadas de deliberação que tornam o CEP progressivamente mais qualificado como instância coletiva, não apenas seus membros individualmente. O parecer sobre um protocolo com IA que foi debatido em plenário, com discordâncias documentadas e fundamentação explícita, forma o comitê de forma que nenhum curso sozinho alcança.",
+      "A capacitação real não ocorre num evento. Ocorre num processo. Um curso de introdução pode apresentar conceitos e instrumentos. A competência se constrói na prática deliberativa acumulada: nos pareceres fundamentados sobre protocolos com IA, nas discussões colegiadas sobre casos limítrofes, na revisão periódica das perguntas formuladas à luz do que o campo produziu de novo desde o último ciclo de avaliação. O Capítulo 9 não oferece um programa de formação completo. Oferece os fundamentos conceituais, os instrumentos operacionais e os exercícios de consolidação que tornam essa prática progressiva possível. A capacidade institucional do CEP para avaliar pesquisa com IA é um patrimônio. Constrói-se parecer a parecer.",
+      "",
+      "9.2 Fundamentos de IA para membros de CEP ",
+      "O Capítulo 2 construiu o mapa conceitual que o CEP precisa para navegar o território da inteligência artificial em pesquisa: o vocabulário, as arquiteturas, os tipos de sistemas, o ciclo de vida dos dados. A seção 9.2 não repete esse mapa. Parte dele em direção a um destino específico: a leitura de protocolos. Conhecer um conceito e saber usá-lo na avaliação ética são competências distintas. Saber o que é deriva de dados é diferente de saber identificar quando um protocolo longitudinal não descreve como vai monitorá-la. Saber o que é uma rede neural profunda é diferente de saber perguntar por que o pesquisador escolheu essa arquitetura em vez de um modelo mais explicável e o que essa escolha implica para os participantes. O Capítulo 2 forma o avaliador. A seção 9.2 mostra como o avaliador formado lê um protocolo.",
+      "Cada conceito visual do Capítulo 2 tem correspondência numa pergunta operacional que o CEP deve saber formular. A representação entrada, função e saída de um sistema traduz-se na pergunta: o protocolo descreve o que o sistema recebe como dado de entrada, o que faz com esses dados e o que produz como saída? A divisão dos dados em conjuntos de treino, validação e teste traduz-se na pergunta: as proporções estão descritas e a composição demográfica de cada conjunto está documentada e comparada com a população-alvo da pesquisa? A distinção entre sistema classificatório e sistema generativo traduz-se na pergunta: o protocolo identifica o tipo de sistema e descreve as responsabilidades específicas que cada tipo impõe ao pesquisador? A representação da deriva de dados traduz-se na pergunta: o protocolo descreve como o comportamento do sistema será monitorado ao longo do tempo, com critérios predefinidos de degradação que acionam revisão ética? Cada uma dessas perguntas tem endereço preciso no protocolo e é formulável por qualquer membro de CEP sem formação técnica em computação.",
+      "A escolha da arquitetura de um sistema de IA não é decisão puramente técnica. É decisão com consequências éticas diretas sobre os participantes e sobre a supervisão humana que o protocolo pode oferecer. Um pesquisador que propõe rede neural profunda para diagnóstico clínico em protocolo de pesquisa com seres humanos aceitou implicitamente um grau de opacidade que tem implicações para o consentimento informado, para a explicabilidade das decisões e para o exercício real da supervisão médica. ",
+      "Nesse caso, o CEP deve perguntar: o ganho de desempenho em relação a modelos mais explicáveis justifica eticamente essa opacidade para os participantes desta pesquisa específica, neste contexto clínico específico? O protocolo apresenta essa comparação? Essa pergunta não exige que o CEP calcule métricas de desempenho nem domine a matemática do gradiente descendente. Exige que o comitê saiba que a escolha arquitetural foi feita, que teve consequências éticas e que o protocolo deve justificá-la com argumentos que vão além do desempenho técnico. O Capítulo 2 construiu o mapa. A seção 9.2 mostrou como usá-lo na avaliação.",
+      "",
+      "9.3 Avaliação de risco e impacto algorítmico ",
+      "O percurso pelos quatro passos da matriz retoma o Capítulo 7 num registro aplicado, com ênfase nas decisões que o comitê precisa tomar em cada etapa. O filtro de entrada determina se o protocolo requer aplicação da matriz ou se pode seguir o fluxo convencional de avaliação: essa decisão já exige julgamento colegiado, porque protocolos que não se autodeclaram como pesquisa com IA podem conter sistemas que a matriz deveria cobrir. A caracterização do contexto de uso situa o sistema no seu território clínico ou social específico, sem o qual os cinco eixos de avaliação produzem leituras descontextualizadas. Os cinco eixos percorrem as dimensões que os capítulos anteriores desenvolveram: dados, arquitetura, supervisão humana, equidade e ciclo de vida. Os níveis de risco produzem uma classificação que orienta as exigências do parecer. A regra crítica é o dispositivo que impede que um protocolo com alto desempenho médio na matriz obtenha aprovação quando apresenta falha estrutural numa única dimensão. Sem ela, a média pode ocultar o inaceitável.",
+      "Os casos limítrofes são os que formam o comitê. A MARA resolve a maioria dos protocolos com clareza suficiente para orientar o parecer. Os casos que resistem à resolução instrumental são precisamente os que desenvolvem a competência institucional do CEP de forma que nenhum treinamento formal alcança. Quando o protocolo apresenta alto risco numa dimensão e baixo risco nas demais, quando a fase do ciclo de vida do sistema é ambígua, quando o impacto coletivo sobre grupos vulneráveis não está descrito mas é inferível a partir do contexto, o comitê precisa deliberar sem apoio instrumental completo. Os recursos disponíveis nesses casos são o princípio de precaução, a corresponsabilidade do CEP pela proteção dos participantes estabelecida pela Resolução n.º 466/2012 e preservada pela Lei n.º 14.874/2024, e a jurisprudência acumulada pelo próprio comitê em pareceres anteriores sobre protocolos semelhantes (BRASIL, 2012; BRASIL, 2024). Os casos limítrofes não são falhas do instrumento. São o território onde a ética em pesquisa com IA se constrói, protocolo a protocolo, parecer a parecer.",
+      "",
+      "9.4 Exercício de consolidação: 20 questões integradas ",
+      "A seção 9.4 fecha o guia com um exercício que não tem gabarito único. As vinte questões que seguem foram construídas para gerar deliberação, não para verificar memorização. Cada questão parte de uma situação concreta extraída do tipo de protocolo que os CEPs brasileiros recebem hoje e exige que o avaliador aplique os princípios, os conceitos e os instrumentos desenvolvidos ao longo do guia. Algumas questões têm resposta mais convergente. Outras admitem posições fundamentadas distintas. As segundas são as mais importantes, porque é diante delas que a competência institucional do CEP se revela. O exercício pode ser realizado individualmente como preparação ou coletivamente como simulação de reunião plenária. O segundo modo é o recomendado: as divergências entre avaliadores sobre a mesma situação são o material mais rico que o exercício pode produzir.",
+      "As questões estão organizadas em cinco blocos de quatro questões cada, correspondendo aos grandes temas do guia. O Bloco 1 cobre conceitos fundamentais e classificação de sistemas. O Bloco 2 cobre integridade científica e autoria. O Bloco 3 cobre governança de dados e consentimento. O Bloco 4 cobre avaliação de risco e aplicação da MARA. O Bloco 5 cobre especificidades por natureza da pesquisa, com questões sobre SaMD e sobre Ciências Humanas e Sociais. Cada bloco começa com uma questão de identificação conceitual e termina com uma questão de julgamento ético aplicado. A progressão é deliberada: o avaliador parte do que reconhece e chega ao que precisa decidir.",
+      "",
+      "Bloco 1 Conceitos fundamentais e classificação de sistemas:",
+      "Um protocolo descreve um sistema que recebe imagens de radiografia de tórax, as processa por rede neural convolucional e produz como saída um escore de probabilidade de pneumonia entre 0 e 1, exibido na tela do médico junto à imagem original. O sistema se enquadra como SaMD segundo a RDC n.º 657/2022? Que informação adicional o CEP precisaria para responder com certeza?",
+      "Um pesquisador descreve seu sistema como \"ferramenta de apoio à gestão hospitalar baseada em aprendizado de máquina\". O sistema processa dados de prontuário para priorizar pacientes na fila de atendimento de urgência. O CEP deve aceitar essa descrição como suficiente para classificar o sistema fora do escopo da RDC n.º 657/2022? Quais perguntas o comitê deve formular?",
+      "Um protocolo usa modelo de linguagem de grande escala para gerar resumos automáticos de prontuários clínicos destinados aos médicos assistentes. O pesquisador declara que o sistema não toma decisões clínicas. Que riscos éticos específicos essa arquitetura introduz que um sistema classificatório convencional não introduziria?",
+      "Um sistema de IA foi treinado sobre dados de 2018 a 2022 e será aplicado em pesquisa longitudinal com duração prevista de três anos. O protocolo não descreve plano de monitoramento de desempenho ao longo do estudo. Que conceito do Capítulo 2 torna essa omissão um risco ético identificável? Que pergunta o CEP deve formular?",
+      "",
+      "Bloco 2 Integridade científica e autoria",
+      "Um protocolo de pesquisa multicêntrico apresenta revisão de literatura com quarenta e duas referências. Três delas têm DOIs que não retornam resultado em nenhuma base indexada. O pesquisador, consultado, afirma que usou assistente de IA para elaborar o levantamento bibliográfico inicial e que realizou verificação manual posterior. O CEP deve classificar a situação como erro metodológico ou como indicador de má conduta? Que informação adicional orienta essa classificação?",
+      "Um protocolo descreve uso de sistema de IA generativa para produzir dados sintéticos de pacientes que servirão como grupo controle na análise. O pesquisador afirma que os dados sintéticos são indistinguíveis dos dados reais em termos estatísticos. Que exigências o CEP deve fazer antes de aceitar essa afirmação como suficiente para aprovação?",
+      "O TCLE de um protocolo foi redigido com linguagem excepcionalmente fluente e nítida, mas omite qualquer menção ao papel da IA na pesquisa. O pesquisador declara que não usou IA na redação do TCLE. O CEP deve aceitar essa declaração sem verificação adicional? Que elementos do protocolo podem corroborar ou contradizer essa declaração?",
+      "Um protocolo descreve sistema de IA que orienta a seleção de participantes para um ensaio clínico com base em dados de prontuário. O pesquisador principal é também o desenvolvedor do sistema. Que conflito de interesse específico essa situação introduz e como o CEP deve endereçá-lo no parecer?",
+      "",
+      "Bloco 3 Governança de dados e consentimento",
+      "Um protocolo solicita dispensa de consentimento para uso de dados de prontuário de pacientes atendidos nos últimos cinco anos. Os dados serão usados para treinar modelo preditivo de risco de readmissão hospitalar. O modelo resultante será publicado em repositório aberto após o encerramento da pesquisa. O TCLE original dos pacientes cobre esse uso? Que dimensão do ciclo de vida do modelo o CEP deve verificar que o protocolo não descreveu?",
+      "Um pesquisador propõe pesquisa com dados de redes sociais publicamente disponíveis para treinar modelo de detecção precoce de sintomas depressivos. Classifica a pesquisa como de risco mínimo com dispensa de consentimento segundo a Resolução n.º 510/2016. O CEP deve aceitar essa classificação? Que pergunta sobre as inferências produzidas pelo sistema torna a classificação de risco mínimo insustentável?",
+      "Um protocolo de aprendizagem federada envolve quatro hospitais em estados diferentes. Cada hospital mantém seus dados localmente. O pesquisador afirma que nenhum dado de paciente sai das instituições. Que riscos residuais o CEP deve verificar que essa descrição não elimina?",
+      "Um participante de pesquisa com IA retira seu consentimento após o modelo ter sido treinado com seus dados. O pesquisador responde que a retirada é impossível, uma vez que os dados já foram incorporados ao modelo. Que instrumento técnico o protocolo deveria ter descrito para tornar a retirada possível? O CEP que aprovou o protocolo sem exigir essa descrição tem corresponsabilidade pela situação?",
+      "",
+      "Bloco 4 Avaliação de risco e MARA",
+      "Aplicando o filtro de entrada da MARA, um CEP identifica que o protocolo descreve sistema de IA mas não declara a fase do ciclo de vida em que se encontra. Como o comitê deve proceder? A ausência dessa informação impede a aplicação da matriz ou exige solicitação de esclarecimento antes de qualquer avaliação de risco?",
+      "Um protocolo obtém pontuação baixa em quatro dos cinco eixos da MARA, mas pontuação máxima no eixo de equidade de desempenho: o sistema não foi testado em nenhum subgrupo populacional da região onde a pesquisa será conduzida. A regra crítica da matriz se aplica? Que consequência essa aplicação tem para o parecer?",
+      "Dois membros de CEP aplicam a MARA ao mesmo protocolo e chegam a classificações de risco distintas no eixo de supervisão humana. Um considera que o mecanismo de override descrito é suficiente. O outro considera que as condições institucionais de uso tornam o mecanismo inoperante na prática. Como o plenário deve deliberar sobre essa divergência? Qual dos dois olhares a matriz foi desenhada para capturar?",
+      "Um protocolo de pesquisa com sistema de IA em unidade de terapia intensiva apresenta alto risco em três dos cinco eixos da matriz. O pesquisador argumenta que o potencial benefício clínico justifica a aprovação com condicionantes. O CEP pode aprovar com condicionantes protocolos que atingem nível IV na matriz? Que condicionantes seriam eticamente defensáveis nesse caso?",
+      "",
+      "Bloco 5 Especificidades por natureza da pesquisa",
+      "Um protocolo descreve sistema de IA para triagem de pacientes com suspeita de acidente vascular cerebral em pronto-socorro. O sistema está em fase de teste em condições reais. O pesquisador não menciona a RDC n.º 657/2022 nem descreve plano de transição para registro na ANVISA. Que duas declarações obrigatórias estão ausentes? Como o CEP deve classificar essa omissão: protocolo incompleto ou protocolo inadequado?",
+      "Um grupo de pesquisadores propõe estudo sobre discurso político em redes sociais usando modelo de processamento de linguagem natural. Os dados são públicos. O modelo produzirá classificações de posicionamento político individual. A pesquisa está dispensada de submissão ao sistema CEP-CONEP segundo a Resolução n.º 510/2016? Que argumento sobre a natureza das inferências produzidas pelo sistema fundamenta a resposta do CEP?",
+      "Um protocolo de pesquisa em Ciências Humanas e Sociais (CHS) treina modelo sobre dados de comunidade quilombola para estudar padrões de acesso a serviços de saúde. O modelo resultante será disponibilizado para uso por gestores municipais de saúde. Que risco coletivo específico essa combinação introduz? Que salvaguardas o protocolo deve descrever para que o CEP considere a aprovação?",
+      "Um CEP recebe em plenário dois protocolos com IA no mesmo dia. O primeiro é pesquisa biomédica com SaMD em fase de treino, com base de dados demograficamente representativa, mecanismo de verificação humana descrito, TCLE completo e plano de transição para ANVISA detalhado. O segundo é pesquisa em CHS com modelo de análise de discurso sobre dados públicos, classificada pelo pesquisador como risco mínimo, sem análise das inferências produzidas e sem identificação dos grupos afetados. Qual dos dois protocolos apresenta maior risco ético imediato para os participantes e para os grupos que os dados representam? O que essa comparação revela sobre a relação entre natureza da pesquisa e perfil de risco em pesquisa com IA?",
+      "",
+      "Quadro 9.2 Perguntas essenciais do Capítulo 9",
+      "",
+      "Quadro 9.3 Sinalizadores de alerta",
+      "",
+      "Quadro 9.4 Conexões com outros capítulos",
+      "",
+      "Referências:",
+      "BRASIL. Conselho Nacional de Saúde. Resolução n.º 466, de 12 de dezembro de 2012. Aprova as diretrizes e normas regulamentadoras de pesquisas envolvendo seres humanos. Brasília, DF: CNS, 2012.",
+      "BRASIL. Presidência da República. Lei n.º 14.874, de 28 de maio de 2024. Dispõe sobre a pesquisa com seres humanos e institui o Sistema Nacional de Ética em Pesquisa com Seres Humanos. Brasília, DF: Diário Oficial da União, 29 maio 2024.",
+      ""
+    ],
+    "tables": [
+      [
+        [
+          "Se você precisa saber...",
+          "Vá para"
+        ],
+        [
+          "O que significa capacitar um CEP para avaliar pesquisa com IA e o que não significa",
+          "9.1"
+        ],
+        [
+          "Como traduzir os conceitos do Capítulo 2 em perguntas operacionais para leitura de protocolos",
+          "9.2"
+        ],
+        [
+          "Como usar a MARA — Matriz de Avaliação de Risco Algorítmico como instrumento de deliberação colegiada",
+          "9.3"
+        ],
+        [
+          "Como os casos limítrofes formam o CEP e quais recursos estão disponíveis quando a matriz não resolve",
+          "9.3"
+        ],
+        [
+          "Exercício integrado com situações concretas para prática deliberativa individual ou em plenário",
+          "9.4"
+        ]
+      ],
+      [
+        [
+          "",
+          "Pergunta"
+        ],
+        [
+          "1",
+          "O programa de capacitação do CEP desenvolve a competência de formular perguntas éticas precisas ou apenas transmite conhecimento técnico sobre IA?"
+        ],
+        [
+          "2",
+          "Os membros do CEP conhecem o vocabulário mínimo do Capítulo 2 com profundidade suficiente para identificar quando um protocolo omite informação relevante sobre o sistema?"
+        ],
+        [
+          "3",
+          "O CEP aplica a MARA coletivamente em plenário ou apenas individualmente na fase de relato?"
+        ],
+        [
+          "4",
+          "O comitê documenta suas deliberações sobre casos limítrofes de forma que os pareceres anteriores possam orientar avaliações futuras?"
+        ],
+        [
+          "5",
+          "O CEP revisa periodicamente suas práticas de avaliação de protocolos com IA à luz do que o campo produziu de novo?"
+        ],
+        [
+          "6",
+          "Os casos em que membros do CEP divergiram na aplicação da matriz são registrados e discutidos como material de formação institucional?"
+        ]
+      ],
+      [
+        [
+          "Sinal na prática do CEP",
+          "O que pode indicar"
+        ],
+        [
+          "Pareceres sobre protocolos com IA que não identificam o tipo de sistema nem a fase do ciclo de vida",
+          "Competência conceitual insuficiente para avaliação adequada"
+        ],
+        [
+          "Aprovações de protocolos com IA sem solicitação de informações sobre composição demográfica da base de treino",
+          "Dimensão de equidade não incorporada à prática deliberativa"
+        ],
+        [
+          "Ausência de registro de divergências entre membros na avaliação de protocolos com IA",
+          "Deliberação colegiada não ocorre ou não é documentada"
+        ],
+        [
+          "Pareceres que aprovam protocolos com sistemas opacos sem exigir justificativa para a escolha arquitetural",
+          "Competência instrumental insuficiente para aplicação da regra crítica da matriz"
+        ],
+        [
+          "CEP que nunca recusou protocolo com IA por inadequação estrutural",
+          "Distinção entre protocolo incompleto e protocolo inadequado não está operacionalizada"
+        ]
+      ],
+      [
+        [
+          "Para aprofundar...",
+          "Vá para"
+        ],
+        [
+          "Os conceitos que a capacitação precisa consolidar",
+          "Capítulo 2"
+        ],
+        [
+          "O roteiro de perguntas que estrutura a avaliação de qualquer protocolo com IA",
+          "Capítulo 5"
+        ],
+        [
+          "A MARA e seus fundamentos",
+          "Capítulo 7"
+        ],
+        [
+          "As perguntas específicas para protocolos com SaMD e com pesquisa em CHS",
+          "Capítulo 8"
+        ]
+      ]
+    ]
+  }
+}
